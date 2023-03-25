@@ -1,16 +1,18 @@
 .navbar {
     position: relative;
-    height: 12vh;
+    min-height: 12vh;
     width: 100%;
 }
 
 .main-content {
-    min-height: 70vh;
+    min-height: 75vh;
 }
 
 .footer {
     position: relative;
-    height: 12vh;
+    min-height: 12vh;
     width: 100%;
     bottom: 0;
 }
+
+

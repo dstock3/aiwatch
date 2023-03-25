@@ -15,6 +15,7 @@ const AppRouter = () => {
             <Route path="/" element={
                 <PageContainer Page={Home} />} 
             />
+            
             <Route path="/about" element={
                 <PageContainer Page={About} />} 
             />

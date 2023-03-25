@@ -10,9 +10,9 @@ const Contact = () => {
   return (
     <Container className="my-5">
       <Row>
-        <Col>
-          <h1 className="text-center">Contact Us</h1>
-          <p className="text-center">Feel free to reach out to us using the form below:</p>
+        <Col className="text-center">
+          <h1>Contact Us</h1>
+          <p>Feel free to reach out to us using the form below:</p>
         </Col>
       </Row>
       <Row>
