@@ -4,15 +4,19 @@ import { Container, Row, Col, Form, Button } from 'react-bootstrap';
 const Contact = () => {
   const handleSubmit = (event) => {
     event.preventDefault();
-    // submission logic goes here
+    // Handle form submission logic here
   };
 
   return (
     <Container className="my-5">
       <Row>
         <Col>
-          <h1>Contact Us</h1>
-          <p>Feel free to reach out to us using the form below:</p>
+          <h1 className="text-center">Contact Us</h1>
+          <p className="text-center">Feel free to reach out to us using the form below:</p>
+        </Col>
+      </Row>
+      <Row>
+        <Col md={{ span: 8, offset: 2 }}>
           <Form onSubmit={handleSubmit}>
             <Form.Group className="mb-3" controlId="contactForm.Name">
               <Form.Label>Name</Form.Label>
