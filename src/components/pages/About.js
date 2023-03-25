@@ -13,12 +13,6 @@ const About = () => {
             viewers with high-quality content that explores the ever-evolving world of AI.
           </p>
           <p>
-            Our team consists of experts in the field of artificial intelligence, machine learning,
-            and data science. We strive to bring you engaging and informative content that covers
-            a wide range of topics, from AI research breakthroughs to practical applications in
-            various industries.
-          </p>
-          <p>
             If you're interested in learning more about AI or staying up-to-date with the latest
             developments, subscribe to AI Watch and join our growing community of AI enthusiasts.
           </p>
