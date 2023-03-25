@@ -1,9 +1,9 @@
-function App() {
-  return (
-    <div className="App">
+import React from 'react';
+import AppRouter from './AppRouter';
 
-    </div>
-  );
+function App() {
+  return <AppRouter />;
 }
 
 export default App;
+
