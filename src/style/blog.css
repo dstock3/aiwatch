@@ -1,0 +1,12 @@
+.list-group-item.active {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.list-group-item.active .title {
+    font-weight: bold;
+}
+
+.list-group-item.active .date {
+    font-style: italic;
+}
