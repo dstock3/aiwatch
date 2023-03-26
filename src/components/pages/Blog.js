@@ -1,7 +1,27 @@
 import React from 'react';
-import { Container, Row, Col, Card, ListGroup } from 'react-bootstrap';
+import { Container, Row, Col, Card } from 'react-bootstrap';
+import BlogList from '../sections/BlogList';
 
 const Blog = () => {
+  const blogs = [
+    { title: 'Blog Entry 1',
+      date: 'March 1, 2023',
+      text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum. Duis elementum euismod quam, vitae condimentum mi ullamcorper vel. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum. Duis elementum euismod quam, vitae condimentum mi ullamcorper vel. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum. Duis elementum euismod quam, vitae condimentum mi ullamcorper vel. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum. Duis elementum euismod quam, vitae condimentum mi ullamcorper vel.'
+    },
+    { title: 'Blog Entry 2',
+      date: 'March 3, 2023',
+      text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum. Duis elementum euismod quam, vitae condimentum mi ullamcorper vel. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum. Duis elementum euismod quam, vitae condimentum mi ullamcorper vel. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum. Duis elementum euismod quam, vitae condimentum mi ullamcorper vel. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum. Duis elementum euismod quam, vitae condimentum mi ullamcorper vel.'
+    },
+    { title: 'Blog Entry 3',
+      date: 'March 5, 2023',
+      text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum. Duis elementum euismod quam, vitae condimentum mi ullamcorper vel. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum. Duis elementum euismod quam, vitae condimentum mi ullamcorper vel. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum. Duis elementum euismod quam, vitae condimentum mi ullamcorper vel. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum. Duis elementum euismod quam, vitae condimentum mi ullamcorper vel.'
+    },
+    { title: 'Blog Entry 4',
+      date: 'March 9, 2023',
+      text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum. Duis elementum euismod quam, vitae condimentum mi ullamcorper vel. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum. Duis elementum euismod quam, vitae condimentum mi ullamcorper vel. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum. Duis elementum euismod quam, vitae condimentum mi ullamcorper vel. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum. Duis elementum euismod quam, vitae condimentum mi ullamcorper vel.'
+    }
+  ];
+
   return (
     <Container className="my-5">
       <Row>
@@ -23,23 +43,7 @@ const Blog = () => {
             </Card.Body>
           </Card>
         </Col>
-        <Col md={4}>
-          <h4>Previous Blog Entries</h4>
-          <ListGroup>
-            <ListGroup.Item action href="#blog-entry-1">
-              Blog Entry 1
-            </ListGroup.Item>
-            <ListGroup.Item action href="#blog-entry-2">
-              Blog Entry 2
-            </ListGroup.Item>
-            <ListGroup.Item action href="#blog-entry-3">
-              Blog Entry 3
-            </ListGroup.Item>
-            <ListGroup.Item action href="#blog-entry-4">
-              Blog Entry 4
-            </ListGroup.Item>
-          </ListGroup>
-        </Col>
+        <BlogList blogs={blogs} />
       </Row>
     </Container>
   );
