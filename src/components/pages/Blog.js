@@ -41,8 +41,16 @@ const Blog = () => {
     <>
       <Helmet>
         <title>{`${selectedBlog.title} - AI Watch`}</title>
-        <meta name="description" content={selectedBlog.text.substring(0, 160)} />
-        <meta name="keywords" content={selectedBlog.tags.join(', ')} />
+        <meta
+          key="description"
+          name="description"
+          content={`Read our latest blog post: ${selectedBlog.title}. ${selectedBlog.text.substring(0, 150)}...`}
+        />
+        <meta
+          key="keywords"
+          name="keywords"
+          content={`AI, artificial intelligence, machine learning, ${selectedBlog.tags.join(', ')}`}
+        />
       </Helmet>
 
       <Container className="my-5">
