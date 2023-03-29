@@ -35,7 +35,7 @@ const Resources = () => {
         <Row>
           {resources.map((resource, index) => (
             <Col key={index} xs={12} md={4} className="mb-4">
-              <Card>
+              <Card className="bg-dark text-white">
                 <Card.Body>
                   <Card.Title>{resource.title}</Card.Title>
                   <Card.Text>{resource.description}</Card.Text>

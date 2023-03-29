@@ -9,7 +9,7 @@ const About = () => {
         <title>About - AI Watch</title>
       </Helmet>
 
-      <Container className="my-5">
+      <Container className="my-5 bg-dark text-white">
         <Row>
           <Col xs={12} md={{ span: 8, offset: 2 }}>
             <h1 className="mb-4">About AI Watch</h1>

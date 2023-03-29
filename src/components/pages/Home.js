@@ -17,7 +17,7 @@ const Home = () => {
       
       <Container className="my-5">
         <Row>
-          <Card className="home-card">
+          <Card className="home-card bg-dark text-white">
             <h1 className="text-center">Latest Video</h1>
             <div className="embed-responsive embed-responsive-16by9 home-container">
               <iframe
@@ -29,7 +29,7 @@ const Home = () => {
             </div>
           </Card>
         </Row>
-        <Row className="my-5">
+        <Row className="my-5 bg-dark text-white">
           <Col className="text-center">
             <h2>Subscribe to our Newsletter</h2>
             <p>Get the latest AI news and updates straight to your inbox:</p>

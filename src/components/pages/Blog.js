@@ -57,7 +57,7 @@ const Blog = () => {
         <Row>
           <Col md={8}>
             {selectedBlog && (
-              <Card className="mb-4">
+              <Card className="mb-4 bg-dark text-white">
                 <Card.Img
                   variant="top"
                   src={selectedBlog.img}

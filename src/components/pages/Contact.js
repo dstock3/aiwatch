@@ -13,7 +13,7 @@ const Contact = () => {
       <Helmet>
         <title>Contact Us - AI Watch</title>
       </Helmet>
-      <Container className="my-5">
+      <Container className="my-5 bg-dark text-white">
         <Row>
           <Col className="text-center">
             <h1>Contact Us</h1>
