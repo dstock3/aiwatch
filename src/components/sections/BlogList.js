@@ -25,7 +25,7 @@ const BlogList = (props) => {
                         onMouseLeave={() => handleMouseLeave()}
                         active={activeIndex === index}
                     >
-                        <div className="d-flex justify-content-between align-items-center">
+                        <div className="bloglist-item d-flex justify-content-between align-items-center">
                             <div className="title">
                                 {blog.title}
                             </div>

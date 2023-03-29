@@ -9,7 +9,7 @@ const Footer = () => {
     <footer className="footer py-3 bg-dark text-white">
       <Container>
         <p className="text-center mb-0">
-          &copy; {currentYear} AI Watch
+          Copyright &copy; {currentYear} AI Watch
         </p>
       </Container>
     </footer>
