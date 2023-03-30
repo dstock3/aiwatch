@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Row, Col, Form, Button } from 'react-bootstrap';
 import { Helmet } from 'react-helmet';
+import '../../style/contact.css';
 
 const Contact = () => {
   const handleSubmit = (event) => {
@@ -13,7 +14,7 @@ const Contact = () => {
       <Helmet>
         <title>Contact Us - AI Watch</title>
       </Helmet>
-      <Container className="my-5 bg-dark text-white">
+      <Container className="contact-container my-5 bg-dark text-white" style={{ maxWidth: '55%' }}>
         <Row>
           <Col className="text-center">
             <h1>Contact Us</h1>
