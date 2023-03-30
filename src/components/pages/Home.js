@@ -29,12 +29,12 @@ const Home = () => {
             </div>
           </Card>
         </Row>
-        <Row className="my-5 bg-dark text-white">
+        <Row className="newsletter-container my-5 bg-dark text-white" style={{ maxWidth: '33%' }}>
           <Col className="text-center">
             <h2>Subscribe to our Newsletter</h2>
             <p>Get the latest AI news and updates straight to your inbox:</p>
             <Form onSubmit={handleNewsletterSubmit} inline className="d-flex justify-content-center">
-              <Form.Group controlId="newsletterForm.Email" className="mb-3">
+              <Form.Group controlId="newsletterForm.Email">
                 <Form.Control type="email" placeholder="Enter your email" />
               </Form.Group>
               <Button variant="primary" type="submit" className="ms-2">
