@@ -36,9 +36,13 @@ const Contact = () => {
                 <Form.Label>Message</Form.Label>
                 <Form.Control as="textarea" rows={3} placeholder="Enter your message" />
               </Form.Group>
-              <Button variant="primary" type="submit">
-                Submit
-              </Button>
+
+              <div className="d-flex justify-content-end">
+                <Button variant="primary" type="submit">
+                  Submit
+                </Button>
+              </div>
+
             </Form>
           </Col>
         </Row>
