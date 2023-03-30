@@ -14,7 +14,7 @@ const Contact = () => {
       <Helmet>
         <title>Contact Us - AI Watch</title>
       </Helmet>
-      <Container className="contact-container my-5 bg-dark text-white" style={{ maxWidth: '50%' }}>
+      <Container className="contact-container my-5 gradient text-white" style={{ maxWidth: '50%' }}>
         <Row>
           <Col className="text-center">
             <h1>Contact Us</h1>

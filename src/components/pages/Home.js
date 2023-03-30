@@ -17,7 +17,7 @@ const Home = () => {
       
       <Container className="my-5">
         <Row>
-          <Card className="home-card bg-dark text-white">
+          <Card className="home-card gradient text-white">
             <h1 className="text-center">Latest Video</h1>
             <div className="embed-responsive embed-responsive-16by9 home-container">
               <iframe

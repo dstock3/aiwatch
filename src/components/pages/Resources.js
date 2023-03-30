@@ -36,7 +36,7 @@ const Resources = () => {
         <Row>
           {resources.map((resource, index) => (
             <Col key={index} xs={12} md={4} className="mb-4">
-              <Card className="resource-container bg-dark text-white">
+              <Card className="resource-container gradient text-white">
                 <Card.Body className="resource-card-body">
                   <Card.Title>{resource.title}</Card.Title>
                   <Card.Text>{resource.description}</Card.Text>
