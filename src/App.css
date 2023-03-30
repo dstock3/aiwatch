@@ -15,4 +15,6 @@
     bottom: 0;
 }
 
-
+.gradient {
+    background: linear-gradient(180deg, #212e39, #191c1f);
+}

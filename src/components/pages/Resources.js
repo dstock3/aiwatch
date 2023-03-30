@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Row, Col, Card } from 'react-bootstrap';
 import { Helmet } from 'react-helmet';
+import '../../style/resources.css';
 
 const Resources = () => {
   const resources = [
@@ -35,13 +36,15 @@ const Resources = () => {
         <Row>
           {resources.map((resource, index) => (
             <Col key={index} xs={12} md={4} className="mb-4">
-              <Card className="bg-dark text-white">
-                <Card.Body>
+              <Card className="resource-container bg-dark text-white">
+                <Card.Body className="resource-card-body">
                   <Card.Title>{resource.title}</Card.Title>
                   <Card.Text>{resource.description}</Card.Text>
-                  <Card.Link href={resource.url} target="_blank" rel="noopener noreferrer">
-                    Visit Resource
-                  </Card.Link>
+                  <div className="d-flex justify-content-end">
+                    <Card.Link href={resource.url} target="_blank" rel="noopener noreferrer">
+                      Visit Resource
+                    </Card.Link>
+                  </div>
                 </Card.Body>
               </Card>
             </Col>
