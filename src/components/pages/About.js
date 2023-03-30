@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import { Helmet } from 'react-helmet';
+import '../../style/about.css';
 
 const About = () => {
   return (
@@ -9,7 +10,7 @@ const About = () => {
         <title>About - AI Watch</title>
       </Helmet>
 
-      <Container className="my-5 bg-dark text-white">
+      <Container className="about-container my-5 bg-dark text-white" style={{ maxWidth: '55%' }}>
         <Row>
           <Col xs={12} md={{ span: 8, offset: 2 }}>
             <h1 className="mb-4">About AI Watch</h1>
