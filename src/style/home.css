@@ -14,13 +14,7 @@
     height: 100%;
 }
 
-.newsletter-container {
+.newsletter-container, .about-container {
     border-radius: 2rem;
     padding-block: 1rem;
-}
-
-.about-container {
-    padding-block: 1.5rem;
-    border-radius: 1rem;
-    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
 }

@@ -60,14 +60,14 @@
     border-radius: 15px !important;
     border-bottom-left-radius: 0 !important;
     border-top-left-radius: 0 !important;
-    border-color: #007bff !important;
-    background-color: #007bff !important;
+    border-color: #0056b3 !important;
+    background-color: #0056b3 !important;
     color: #ffffff !important;
     padding: 0.5rem 1rem !important;
     transition: all 0.3s ease !important;
 }
 
 .resources-container .search-button:hover {
-    background-color: #0056b3 !important;
-    border-color: #0056b3 !important;
+    background-color: #185392 !important;
+    border-color: #185392 !important;
 }
