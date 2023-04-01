@@ -49,6 +49,7 @@ const Resources = () => {
               <Card className="resource-container gradient text-white">
                 <Card.Body className="resource-card-body">
                   <Card.Title>{resource.title}</Card.Title>
+                  <hr className="horizontal-rule" />
                   <Card.Text>{resource.description}</Card.Text>
                   <div className="d-flex justify-content-end">
                     <Card.Link href={resource.url} target="_blank" rel="noopener noreferrer">

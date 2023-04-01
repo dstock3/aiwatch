@@ -6,3 +6,8 @@
 .resource-card-body a {
     color: #ae9ff0;
 }
+
+.horizontal-rule {
+    border: 3px solid #ae9ff0;
+    border-radius: 2px;
+}
