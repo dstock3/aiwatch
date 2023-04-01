@@ -6,6 +6,12 @@ import '../../style/resources.css';
 const Resources = () => {
   const resources = [
     {
+      title: 'GPT-4 Is a Reasoning Engine',
+      description: 'This article highlights the importance of understanding that AI models like GPT-4 are reasoning engines rather than knowledge databases, and that their usefulness will improve with better access to relevant knowledge at the right time, rather than just advancements in reasoning capabilities.',
+      url: 'https://every.to/chain-of-thought/gpt-4-is-a-reasoning-engine',
+      keywords: ['GPT-4', 'reasoning engine', 'knowledge database', 'AI models', 'advancements', 'access to knowledge']
+    },
+    {
       title: 'Llama.cpp 30B Runs on 6GB RAM',
       description: 'Llama.cpp now operates with only 6GB of RAM, offering significant improvements in loading time and user experience; however, a comprehensive explanation for the reduced RAM usage is still being investigated, warranting a healthy degree of skepticism.',
       url: 'https://github.com/ggerganov/llama.cpp/discussions/638#discussioncomment-5492916',
