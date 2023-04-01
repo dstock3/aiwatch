@@ -12,6 +12,12 @@ const Resources = () => {
       keywords: ['GPT-4', 'reasoning engine', 'knowledge database', 'AI models', 'advancements', 'access to knowledge']
     },
     {
+      title: 'Alpaca: A Strong, Replicable Instruction-Following Model',
+      description: "This article introduces Alpaca, an instruction-following language model fine-tuned from Meta's LLaMA 7B, which demonstrates behaviors similar to OpenAI's text-davinci-003 but is smaller and more accessible for academic research, with the intention of addressing pressing issues in AI models such as false information, social stereotypes, and toxicity.",
+      url: 'https://crfm.stanford.edu/2023/03/13/alpaca.html',
+      keywords: ['Alpaca', 'instruction-following', 'language model', 'Meta', 'LLaMA', 'OpenAI', 'text-davinci-003', 'false information', 'stereotypes']
+    },
+    {
       title: 'Llama.cpp 30B Runs on 6GB RAM',
       description: 'Llama.cpp now operates with only 6GB of RAM, offering significant improvements in loading time and user experience; however, a comprehensive explanation for the reduced RAM usage is still being investigated, warranting a healthy degree of skepticism.',
       url: 'https://github.com/ggerganov/llama.cpp/discussions/638#discussioncomment-5492916',
@@ -59,7 +65,6 @@ const Resources = () => {
       url: 'https://simonwillison.net/2023/Mar/17/beat-chatgpt-in-a-browser/',
       keywords: ['ChatGPT', 'Simon Willison', 'large language model', 'GPT-3', 'browser', 'training cost', 'GPU servers']
     }
-      
   ];
 
   const [searchKeyword, setSearchKeyword] = useState('');
