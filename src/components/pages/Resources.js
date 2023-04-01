@@ -6,6 +6,12 @@ import '../../style/resources.css';
 const Resources = () => {
   const resources = [
     {
+      title: 'Llama.cpp 30B Runs on 6GB RAM',
+      description: 'Llama.cpp now operates with only 6GB of RAM, offering significant improvements in loading time and user experience; however, a comprehensive explanation for the reduced RAM usage is still being investigated, warranting a healthy degree of skepticism.',
+      url: 'https://github.com/ggerganov/llama.cpp/discussions/638#discussioncomment-5492916',
+      keywords: ['Llama', 'RAM', 'loading time', 'performance improvement', 'usability', 'RAM usage']
+    },
+    {
       title: 'HuggingGPT: Solving AI Tasks with ChatGPT and its Friends in HuggingFace',
       description: 'The paper introduces HuggingGPT, a system that leverages large language models to connect and manage various AI models across domains and modalities, enabling the handling of complicated tasks and paving a new way towards artificial general intelligence.',
       url: 'https://arxiv.org/pdf/2303.17580.pdf',
@@ -35,6 +41,19 @@ const Resources = () => {
       url: 'https://arxiv.org/pdf/2303.14177.pdf',
       keywords: ['expert language models', 'unsupervised domain discovery', 'asynchronous training', 'large language models', 'sparse language models', 'communication overhead', 'performance improvement', 'dense baselines']
     },
+    {
+      title: 'Memorizing Transformers',
+      description: 'This paper discusses the possibility of extending language models with the ability to memorize past inputs at inference time, improving performance across various benchmarks and tasks, and allowing the model to utilize newly defined functions and theorems during testing.',
+      url: 'https://arxiv.org/pdf/2203.08913.pdf',
+      keywords: ['memorizing transformers', 'language models', 'inference time', 'performance improvement', 'new functions', 'new theorems']
+    },
+    {
+      title: 'Could you train a ChatGPT-beating model for $85,000 and run it in a browser?',
+      description: 'Simon Willison speculates that it may soon be possible to train a large language model with capabilities similar to GPT-3 for $85,000, run it in a browser, and potentially surpass ChatGPT, despite the current high costs associated with building and training such models.',
+      url: 'https://simonwillison.net/2023/Mar/17/beat-chatgpt-in-a-browser/',
+      keywords: ['ChatGPT', 'Simon Willison', 'large language model', 'GPT-3', 'browser', 'training cost', 'GPU servers']
+    }
+      
   ];
 
   const [searchKeyword, setSearchKeyword] = useState('');
@@ -61,8 +80,8 @@ const Resources = () => {
       <Helmet>
         <title>Resources - AI Watch</title>
       </Helmet>
-      <Container className="my-5">
-      <Row className="align-items-center">
+      <Container className="my-5 resources-container">
+        <Row className="align-items-center mb-4">
           <Col xs={12} md={6}>
             <h1>Resources</h1>
           </Col>
@@ -71,11 +90,13 @@ const Resources = () => {
               <FormControl
                 type="search"
                 placeholder="Search by keyword"
-                className="mr-2"
+                className="mr-2 search-input"
                 value={searchKeyword}
                 onChange={handleSearchChange}
               />
-              <Button variant="outline-primary">Search</Button>
+              <Button variant="outline-primary" className="search-button">
+                Search
+              </Button>
             </Form>
           </Col>
         </Row>
