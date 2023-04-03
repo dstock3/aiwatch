@@ -6,6 +6,18 @@ import '../../style/resources.css';
 const Resources = () => {
   const resources = [
     {
+      title: 'Attention Is All You Need',
+      description: 'The Transformer, a new network architecture based solely on attention mechanisms, outperforms existing sequence transduction models in machine translation tasks while being more parallelizable and requiring significantly less training time.',
+      url: 'https://arxiv.org/pdf/1706.03762.pdf',
+      keywords: ['Transformer', 'network architecture', 'attention mechanisms', 'sequence transduction', 'machine translation', 'parallelizable', 'reduced training time', 'English-to-German', 'English-to-French']
+    },
+    {
+      title: 'BloombergGPT: A Large Language Model for Finance',
+      description: 'BloombergGPT is a 50 billion parameter language model trained on a large, mixed financial and general-purpose dataset that significantly outperforms existing models on financial tasks while maintaining strong performance on standard LLM benchmarks.',
+      url: 'https://arxiv.org/pdf/2303.17564.pdf',
+      keywords: ['BloombergGPT', 'financial domain', 'large language model', 'financial data', 'mixed dataset training', 'domain-specific dataset', 'NLP in finance', 'performance improvement']
+    },
+    {
       title: 'GPT-4 Is a Reasoning Engine',
       description: 'This article highlights the importance of understanding that AI models like GPT-4 are reasoning engines rather than knowledge databases, and that their usefulness will improve with better access to relevant knowledge at the right time, rather than just advancements in reasoning capabilities.',
       url: 'https://every.to/chain-of-thought/gpt-4-is-a-reasoning-engine',
