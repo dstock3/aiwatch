@@ -6,6 +6,12 @@ import '../../style/resources.css';
 const Resources = () => {
   const resources = [
     {
+      title: 'Measuring trends in Artificial Intelligence',
+      description: "The AI Index, an initiative at Stanford's HAI, annually compiles and visualizes AI data from various organizations, assisting decision-makers in advancing AI responsibly and ethically with a focus on humans.",
+      url: 'https://aiindex.stanford.edu/report/',
+      keywords: ['AI Index', 'Stanford', 'Human-Centered Artificial Intelligence', 'HAI', 'interdisciplinary group', 'decision-makers', 'responsible AI', 'ethical AI', 'collaboration', 'data analysis', 'foundation models', 'geopolitics', 'training costs', 'environmental impact', 'education', 'public opinion trends', 'legislation']
+    },
+    {
       title: 'Think of language models like ChatGPT as a “calculator for words”',
       description: 'Discover the power of language models like ChatGPT as a "calculator for words," excelling at language manipulation and creative tasks. But be cautious when using them as search engines due to potential inaccuracies and hallucinations.',
       url: 'https://simonwillison.net/2023/Apr/2/calculator-for-words/',
