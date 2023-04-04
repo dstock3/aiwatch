@@ -6,6 +6,12 @@ import '../../style/resources.css';
 const Resources = () => {
   const resources = [
     {
+      title: 'The Potentially Large Effects of Artificial Intelligence on Economic Growth',
+      description: "Generative AI's potential to automate tasks and produce human-like content could disrupt labor markets, expose 300 million full-time jobs to automation, and ultimately raise global GDP by 7% if it delivers on its promise.",
+      url: 'https://www.ansa.it/documents/1680080409454_ert.pdf',
+      keywords: ['generative AI', 'task automation', 'labor market disruption', 'occupational tasks', 'worker displacement', 'job creation', 'productivity growth', 'global GDP', 'economic potential']
+    },
+    {
       title: 'Measuring trends in Artificial Intelligence',
       description: "The AI Index, an initiative at Stanford's HAI, annually compiles and visualizes AI data from various organizations, assisting decision-makers in advancing AI responsibly and ethically with a focus on humans.",
       url: 'https://aiindex.stanford.edu/report/',
