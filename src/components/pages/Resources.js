@@ -6,6 +6,30 @@ import '../../style/resources.css';
 const Resources = () => {
   const resources = [
     {
+      title: 'Think of language models like ChatGPT as a “calculator for words”',
+      description: 'Discover the power of language models like ChatGPT as a "calculator for words," excelling at language manipulation and creative tasks. But be cautious when using them as search engines due to potential inaccuracies and hallucinations.',
+      url: 'https://simonwillison.net/2023/Apr/2/calculator-for-words/',
+      keywords: ['language models', 'ChatGPT', 'calculator for words', 'search engines', 'inaccuracies', 'hallucinations', 'creative tasks', 'language manipulation', 'context']
+    },
+    {
+      title: 'ChatGPT is a Blurry JPEG',
+      description: "ChatGPT, a large language model, can be likened to a blurry jpeg of the entire web's text, offering approximations of information while still producing grammatically coherent responses, making it a useful yet potentially imprecise source of knowledge.",
+      url: 'https://www.newyorker.com/tech/annals-of-technology/chatgpt-is-a-blurry-jpeg-of-the-web',
+      keywords: ['ChatGPT', 'large language model', 'blurry jpeg', 'web text', 'approximation', 'grammatical text', 'information, compression', 'lossy algorithm', 'knowledge']
+    },
+    {
+      title: 'Self-Refine: Iterative Refinement with Self-Feedback',
+      description: 'SELF-REFINE is a framework that improves LLM-generated outputs through iterative feedback and refinement, outperforming direct generation across diverse tasks without requiring supervised data or reinforcement learning.',
+      url: 'https://arxiv.org/pdf/2303.17651.pdf',
+      keywords: ['Text generation', 'SELF-REFINE', 'Iterative feedback', 'Refinement', 'Multi-aspect feedback', 'Unsupervised approach', 'Diverse tasks', 'Performance improvement', 'Human preference']
+    },
+    {
+      title: 'Hyena Hierarchy: Towards Larger Convolutional Language Models',
+      description: 'Hyena, a subquadratic drop-in replacement for attention in Transformers, significantly improves accuracy in recall and reasoning tasks, matches attention-based models, and sets a new state-of-the-art for dense-attention-free architectures on language modeling while reducing training compute and increasing speed.',
+      url: 'https://arxiv.org/pdf/2302.10866.pdf',
+      keywords: ['Hyena', 'subquadratic attention', 'Transformers', 'long convolutions', 'data-controlled gating', 'recall and reasoning tasks', 'language modeling', 'dense-attention-free architectures', 'training compute reduction', 'sequence length']
+    },
+    {
       title: 'Attention Is All You Need',
       description: 'The Transformer, a new network architecture based solely on attention mechanisms, outperforms existing sequence transduction models in machine translation tasks while being more parallelizable and requiring significantly less training time.',
       url: 'https://arxiv.org/pdf/1706.03762.pdf',
