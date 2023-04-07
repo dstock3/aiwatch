@@ -19,7 +19,7 @@ const Home = () => {
           <Col xs={12} md={{ span: 8, offset: 2 }}>
             <h1 className="mb-4">About AI Watch</h1>
             <p>
-              AI Watch is a YouTube channel dedicated to providing the latest news, insights, and
+              AI Watch is a news outlet dedicated to providing the latest news, insights, and
               discussions about artificial intelligence. Our goal is to educate and inspire our
               viewers with high-quality content that explores the ever-evolving world of AI.
             </p>

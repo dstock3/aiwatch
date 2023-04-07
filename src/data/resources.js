@@ -1,5 +1,12 @@
 const resources = [
     {
+        title: 'Cerebras-GPT: Open Compute-Optimal Language Models Trained on the Cerebras Wafer-Scale Cluster',
+        description: 'Cerebras-GPT is a family of open compute-optimal language models with state-of-the-art training efficiency, utilizing recent research advances, efficient pre-training, and scaling techniques, with findings on Maximal Update Parameterization (μP) and model availability on HuggingFace.',
+        url: 'https://arxiv.org/pdf/2304.03208.pdf',
+        keywords: ['efficient pre-training', 'scaling', 'Cerebras-GPT', 'Eleuther Pile dataset', 'DeepMind Chinchilla', 'power-law scaling', 'training efficiency', 'μP', 'hyperparameter predictability', 'pre-trained models', 'HuggingFace', 'compute-optimal model scaling']
+
+    },
+    {
       title: 'Do the Rewards Justify the Means?',
       description: "The MACHIAVELLI benchmark evaluates AI agents' Machiavellian tendencies in social decision-making scenarios and explores methods to steer them towards less harmful behaviors, revealing that agents can be designed to be both competent and moral.",
       url: 'https://arxiv.org/pdf/2304.03279.pdf',
