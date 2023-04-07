@@ -3,11 +3,18 @@ import { Container, Row, Col, Card } from 'react-bootstrap';
 import BlogList from '../sections/BlogList';
 import { Helmet } from 'react-helmet';
 import blogs from '../../data/blogs';
+import { useParams } from 'react-router-dom';
 
-const Blog = ({blogId}) => {
+const Blog = () => {
+  const { blogId } = useParams();
 
-  const blog = blogs.find((b) => b.id.toString() === blogId);
-
+  let blog
+  if (blogId === undefined) {
+    blog = blogs[0]
+  } else {
+    blog = blogs.find((blog) => blog.id === parseInt(blogId, 10));
+  }
+  
   if (!blog) {
     return (
       <>
