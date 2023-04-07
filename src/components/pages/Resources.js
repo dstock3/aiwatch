@@ -12,6 +12,18 @@ const Resources = () => {
       keywords: ['Artificial agents', 'Machiavellian', 'next-token prediction', 'language models', 'GPT-4', 'MACHIAVELLI benchmark', 'scenario labeling', 'harmful behaviors', 'disutility', 'ethical violations', 'machine ethics', 'Pareto improvements', 'safety', 'capabilities']
     },
     {
+      title: 'The Potentially Large Effects of Artificial Intelligence on Economic Growth',
+      description: "Generative AI's potential to automate tasks and produce human-like content could disrupt labor markets, expose 300 million full-time jobs to automation, and ultimately raise global GDP by 7% if it delivers on its promise.",
+      url: 'https://www.ansa.it/documents/1680080409454_ert.pdf',
+      keywords: ['generative AI', 'task automation', 'labor market disruption', 'occupational tasks', 'worker displacement', 'job creation', 'productivity growth', 'global GDP', 'economic potential']
+    },
+    {
+      title: 'Measuring trends in Artificial Intelligence',
+      description: "The AI Index, an initiative at Stanford's HAI, annually compiles and visualizes AI data from various organizations, assisting decision-makers in advancing AI responsibly and ethically with a focus on humans.",
+      url: 'https://aiindex.stanford.edu/report/',
+      keywords: ['AI Index', 'Stanford', 'Human-Centered Artificial Intelligence', 'HAI', 'interdisciplinary group', 'decision-makers', 'responsible AI', 'ethical AI', 'collaboration', 'data analysis', 'foundation models', 'geopolitics', 'training costs', 'environmental impact', 'education', 'public opinion trends', 'legislation']
+    },
+    {
       title: 'Think of language models like ChatGPT as a “calculator for words”',
       description: 'Discover the power of language models like ChatGPT as a "calculator for words," excelling at language manipulation and creative tasks. But be cautious when using them as search engines due to potential inaccuracies and hallucinations.',
       url: 'https://simonwillison.net/2023/Apr/2/calculator-for-words/',
