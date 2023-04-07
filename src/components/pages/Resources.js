@@ -6,6 +6,12 @@ import '../../style/resources.css';
 const Resources = () => {
   const resources = [
     {
+      title: 'Do the Rewards Justify the Means?',
+      description: "The MACHIAVELLI benchmark evaluates AI agents' Machiavellian tendencies in social decision-making scenarios and explores methods to steer them towards less harmful behaviors, revealing that agents can be designed to be both competent and moral.",
+      url: 'https://arxiv.org/pdf/2304.03279.pdf',
+      keywords: ['Artificial agents', 'Machiavellian', 'next-token prediction', 'language models', 'GPT-4', 'MACHIAVELLI benchmark', 'scenario labeling', 'harmful behaviors', 'disutility', 'ethical violations', 'machine ethics', 'Pareto improvements', 'safety', 'capabilities']
+    },
+    {
       title: 'Think of language models like ChatGPT as a “calculator for words”',
       description: 'Discover the power of language models like ChatGPT as a "calculator for words," excelling at language manipulation and creative tasks. But be cautious when using them as search engines due to potential inaccuracies and hallucinations.',
       url: 'https://simonwillison.net/2023/Apr/2/calculator-for-words/',

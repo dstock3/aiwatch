@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import PageContainer from './components/PageContainer';
 import Home from './components/pages/Home';
@@ -6,9 +6,14 @@ import Videos from './components/pages/Videos';
 import Blog from './components/pages/Blog';
 import Resources from './components/pages/Resources';
 import Contact from './components/pages/Contact';
-import BlogHome from './components/pages/BlogHome';
+import blogs from './data/blogs';
 
 const AppRouter = () => {
+    const latestBlog = blogs[0];
+    useEffect(()=> {
+        console.log(latestBlog.id)
+
+    }, [])
     return (
       <Router>
         <Routes>
@@ -21,7 +26,9 @@ const AppRouter = () => {
             />
 
             <Route path="/blog"element={
-                <PageContainer Page={BlogHome} />}
+                <PageContainer Page={
+                    <Blog blogId={latestBlog.id} />
+                } />}
             />
 
             <Route path="/resources" element={
@@ -31,11 +38,11 @@ const AppRouter = () => {
             <Route path="/contact" element={
                 <PageContainer Page={Contact} />}
             />
-            <Route path="/blog/:blogId" element={
-                <PageContainer Page={(props) => 
-                    <Blog blogId={props.params.blogId} />}
-                />
-            }/>
+            <Route path="/blog" element={
+                <PageContainer Page={
+                    <Blog blogId={latestBlog.id} />} 
+                />} 
+            />
         </Routes>
       </Router>
     );
