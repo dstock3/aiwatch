@@ -30,12 +30,12 @@ const Resources = () => {
         <title>Resources - AI Watch</title>
       </Helmet>
       <Container className="my-5 resources-container">
-        <Row className="align-items-center mb-4">
+        <Row className="resources-head align-items-center mb-4 gradient text-white">
           <Col xs={12} md={6}>
             <h1>Resources</h1>
           </Col>
           <Col xs={12} md={6}>
-            <Form className="d-flex">
+            <Form className="d-flex search">
               <FormControl
                 type="search"
                 placeholder="Search by keyword"

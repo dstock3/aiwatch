@@ -1,3 +1,11 @@
+.resources-head {
+    background-color: #ae9ff0;
+    color: white;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
 .contact-container {
     border-radius: 1rem;
     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
@@ -35,7 +43,7 @@
     border: 2px solid #007bff !important;
     border-right: none !important;
     transition: all 0.3s ease !important;
-    background-color: transparent !important;
+    background-color: white !important;
     color: #007bff !important;
 }
 
