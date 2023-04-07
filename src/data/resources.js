@@ -1,5 +1,11 @@
 const resources = [
     {
+        title: 'Skeptical optimists are the key to an abundant AI future',
+        description: 'This article discusses the three polarizing positions of Doomers, Anti-hypers, and Accelerationists in the AI debate, highlighting the need for skeptical optimists to have a seat at the table in order to build innovative and responsible AI systems.',
+        url: 'https://www.treycausey.com/blog/skeptical_optimists.html',
+        keywords: ['Doomers', 'Anti-hypers', 'Accelerationists', 'AI debate', 'online phenomena', 'polarization', 'AI community', 'potential effects', 'marginalization, abundance', 'skeptical optimists', 'responsible AI systems', 'optimism', 'regulation', 'diverse viewpoints']
+    },
+    {
         title: 'Cerebras-GPT: Open Compute-Optimal Language Models Trained on the Cerebras Wafer-Scale Cluster',
         description: 'Cerebras-GPT is a family of open compute-optimal language models with state-of-the-art training efficiency, utilizing recent research advances, efficient pre-training, and scaling techniques, with findings on Maximal Update Parameterization (μP) and model availability on HuggingFace.',
         url: 'https://arxiv.org/pdf/2304.03208.pdf',
