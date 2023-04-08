@@ -45,9 +45,9 @@ const Home = () => {
             </div>
           </Card>
         </Row>
-        <Row className="newsletter-container my-5 bg-dark text-white" style={{ maxWidth: '33%' }}>
-          <Col className="text-center">
-            <h2>Subscribe to our Newsletter</h2>
+        <Row className="newsletter-container my-5 gradient text-white pb-4" style={{ maxWidth: '33%' }}>
+          <Col>
+            <h2 className="text-center">Subscribe to our Newsletter</h2>
             <p>Get the latest AI news and updates straight to your inbox:</p>
             <Form onSubmit={handleNewsletterSubmit} inline className="d-flex justify-content-center">
               <Form.Group controlId="newsletterForm.Email">

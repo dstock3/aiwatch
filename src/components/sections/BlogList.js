@@ -15,8 +15,8 @@ const BlogList = ({ blogs }) => {
   };
 
   return (
-    <Col md={3}>
-      <h4 className="text-center mb-4">Previous Blog Entries</h4>
+    <Col md={3} className="blog-list">
+      <h4 className="text-center mb-4">Previous Entries</h4>
       <ListGroup>
         {blogs.map((blog, index) => (
           <Link to={`/blog/${blog.id}`} key={index}>
