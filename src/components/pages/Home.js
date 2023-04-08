@@ -14,7 +14,7 @@ const Home = () => {
       <Helmet>
         <title>AI Watch</title>
       </Helmet>
-      <Container className="about-container my-5 gradient text-white" style={{ maxWidth: '55%' }}>
+      <Container className="about-container my-5" style={{ maxWidth: '55%' }}>
         <Row>
           <Col xs={12} md={{ span: 8, offset: 2 }}>
             <h1 className="mb-4">About AI Watch</h1>
@@ -33,7 +33,7 @@ const Home = () => {
       
       <Container className="my-5">
         <Row>
-          <Card className="home-card gradient text-white">
+          <Card className="home-card">
             <h1 className="text-center">Latest Video</h1>
             <div className="embed-responsive embed-responsive-16by9 home-container">
               <iframe
@@ -45,7 +45,7 @@ const Home = () => {
             </div>
           </Card>
         </Row>
-        <Row className="newsletter-container my-5 gradient text-white pb-4" style={{ maxWidth: '33%' }}>
+        <Row className="newsletter-container my-5 pb-4" style={{ maxWidth: '33%' }}>
           <Col>
             <h2 className="text-center">Subscribe to our Newsletter</h2>
             <p>Get the latest AI news and updates straight to your inbox:</p>

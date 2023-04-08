@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Container, Row, Col, Card } from 'react-bootstrap';
+import { Container, Row, Button, Col, Card } from 'react-bootstrap';
 import BlogList from '../sections/BlogList';
 import { Helmet } from 'react-helmet';
 import blogs from '../../data/blogs';
@@ -8,7 +8,7 @@ import Update from '../modal/Updates';
 
 const Blog = () => {
   const { blogId } = useParams();
-  const [showModal, setShowModal] = useState(false);
+  const [show, setShow] = useState(false);
 
   let blog
   if (blogId === undefined) {
@@ -50,7 +50,7 @@ const Blog = () => {
           <Row>
             <Col md={8}>
               {blog && (
-                <Card className="mb-4 gradient text-white">
+                <Card className="mb-4">
                   <Card.Img
                     variant="top"
                     src={blog.img}
@@ -58,10 +58,11 @@ const Blog = () => {
                   />
                   <Card.Body>
                     <Card.Title>{blog.title}</Card.Title>
-                    <Card.Subtitle className="mb-2 text-muted">
-                      {blog.date}
+                    <Card.Subtitle className="mt-1 mb-2">
+                      <i>{blog.date}</i>
                     </Card.Subtitle>
                     <Card.Text>{blog.text}</Card.Text>
+                    <Button onClick={() => setShow(true)}>Want updates?</Button>
                   </Card.Body>
                 </Card>
               )}
@@ -69,7 +70,7 @@ const Blog = () => {
             <BlogList blogs={blogs} />
           </Row>
         </Container>
-        <Update show={showModal} onHide={() => setShowModal(false)} />
+        <Update show={show} setShow={setShow} onHide={() => setShow(false)}/>
       </>
     );
   }

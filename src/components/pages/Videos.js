@@ -34,7 +34,7 @@ const Videos = () => {
         <Row>
           <Col xs={12}>
             {videos.map((video, index) => (
-              <Card key={index} className="mb-4 video-card gradient text-white">
+              <Card key={index} className="mb-4 video-card">
                 <div className="embed-responsive embed-responsive-16by9 video-container">
                   <iframe
                     className="embed-responsive-item"

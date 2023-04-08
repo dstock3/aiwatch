@@ -6,7 +6,8 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="footer gradient py-3 bg-dark text-white">
+    <footer className="footer py-3">
+      <hr className="rule"></hr>
       <Container>
         <p className="text-center mb-0">
           Copyright &copy; {currentYear} AI Watch

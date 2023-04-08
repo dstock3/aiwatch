@@ -30,7 +30,7 @@ const Resources = () => {
         <title>Resources - AI Watch</title>
       </Helmet>
       <Container className="my-5 resources-container">
-        <Row className="resources-head align-items-center mb-4 gradient text-white">
+        <Row className="resources-head align-items-center mb-4">
           <Col xs={12} md={6}>
             <h1>Resources</h1>
           </Col>
@@ -52,7 +52,7 @@ const Resources = () => {
         <Row>
           {filteredResources.map((resource, index) => (
             <Col key={index} xs={12} md={4} className="mb-4">
-              <Card className="resource-container gradient text-white">
+              <Card className="resource-container">
                 <Card.Body className="resource-card-body">
                   <Card.Title>
                     <a href={resource.url} target="_blank" rel="noopener noreferrer">{resource.title}</a>
