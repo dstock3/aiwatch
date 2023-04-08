@@ -1,12 +1,14 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Container, Row, Col, Card } from 'react-bootstrap';
 import BlogList from '../sections/BlogList';
 import { Helmet } from 'react-helmet';
 import blogs from '../../data/blogs';
 import { useParams } from 'react-router-dom';
+import Update from '../modal/Updates';
 
 const Blog = () => {
   const { blogId } = useParams();
+  const [showModal, setShowModal] = useState(false);
 
   let blog
   if (blogId === undefined) {
@@ -67,6 +69,7 @@ const Blog = () => {
             <BlogList blogs={blogs} />
           </Row>
         </Container>
+        <Update show={showModal} onHide={() => setShowModal(false)} />
       </>
     );
   }
