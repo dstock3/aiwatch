@@ -4,9 +4,27 @@ import { Modal, Button, Form } from 'react-bootstrap';
 const Update = ({show, setShow}) => {
   const handleClose = () => setShow(false);
 
-  const handleSubscribe = (event) => {
+  const handleSubscribe = async (event) => {
     event.preventDefault();
-    // Send newsletter subscription request to server
+    const email = event.target.elements['newsletterForm.Email'].value;
+
+    try {
+      const response = await fetch('https://aiwatch-dstock3.vercel.app/subscribe', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ email }),
+      });
+
+      if (!response.ok) {
+        throw new Error(`Error: ${response.statusText}`);
+      }
+
+      alert('Successfully subscribed!');
+    } catch (error) {
+      alert(`Failed to subscribe: ${error.message}`);
+    }
 
     handleClose();
   };

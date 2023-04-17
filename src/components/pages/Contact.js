@@ -1,12 +1,34 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Container, Row, Col, Form, Button } from 'react-bootstrap';
 import { Helmet } from 'react-helmet';
 import '../../style/contact.css';
 
 const Contact = () => {
-  const handleSubmit = (event) => {
+  const [formSubmitted, setFormSubmitted] = useState(false);
+
+  const handleSubmit = async (event) => {
     event.preventDefault();
-    // Handle form submission logic here
+    const formData = new FormData(event.target);
+    const data = Object.fromEntries(formData.entries());
+
+    try {
+      const response = await fetch('https://aiwatch-dstock3.vercel.app/contact', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(data),
+      });
+
+      if (!response.ok) {
+        throw new Error(`Error: ${response.statusText}`);
+      }
+
+      setFormSubmitted(true);
+      event.target.reset();
+    } catch (error) {
+      alert(`Failed to submit the contact form: ${error.message}`);
+    }
   };
 
   return (
