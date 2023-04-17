@@ -1,28 +1,31 @@
 .resources-head {
-    background-color: #ae9ff0;
     color: white;
     padding: 1rem;
-    border-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
-}
-
-.contact-container {
-    border-radius: 1rem;
-    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+    border-bottom: 3px solid rgb(59 130 246);
+    background: linear-gradient(180deg, #001327, #000810);
 }
 
 .resource-card-body a {
-    color: #ae9ff0;
+    color: white;
 }
 
 .horizontal-rule {
-    border: 3px solid #ae9ff0;
+    border: 3px solid rgb(59 130 246);
     border-radius: 2px;
+}
+
+.resource-card-body {
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+    background-color: #000810;
+    border: 3px solid rgb(59 130 246);
 }
 
 .keyword-box {
     display: inline-block;
-    background-color: #2a4665;
+    background-color: #001327;
     color: white;
     padding: 2px 5px;
     border-radius: 5px;
@@ -32,7 +35,7 @@
 }
   
 .keyword-box:hover {
-    background-color: #0056b3;
+    background-color: rgb(48, 106, 199);
 }
 
 .resources-container .search-input {
