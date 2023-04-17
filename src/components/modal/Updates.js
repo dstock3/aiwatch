@@ -1,15 +1,13 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Modal, Button, Form } from 'react-bootstrap';
 
 const Update = ({show, setShow}) => {
-  
   const handleClose = () => setShow(false);
-  const handleShow = () => setShow(true);
 
   const handleSubscribe = (event) => {
     event.preventDefault();
     // Send newsletter subscription request to server
-    console.log('Subscribed to newsletter');
+
     handleClose();
   };
 

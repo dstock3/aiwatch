@@ -1,5 +1,29 @@
 const resources = [
     {
+      title: 'Scaffolded LLMs as natural language computers',
+      description: 'The article discusses the emergence of scaffolded LLMs as a new type of general-purpose natural language computer, highlighting their potential and analogies with digital computers.',
+      url: 'https://www.beren.io/2023-04-11-Scaffolded-LLMs-natural-language-computers/',
+      keywords: ["LLM-based agents", "AutoGPT", "agentic loop", "scaffolded LLM systems", "GPT4", "natural language computer", "generative agent", "architecture", "von-Neumann computer", "natural language processing unit", "NLPU", "RAM", "memory", "plugins", "scaffolding code", "performance", "FLOPs", "NLOPs", "Moore's law", "exponential improvements"]
+    },
+    {
+      title: 'Building LLM applications for production',
+      description: "Chip Huyen's article highlights the challenges of productionizing large language model (LLM) applications, discussing solutions, control flows, and promising use cases.",
+      url: 'https://huyenchip.com/2023/04/11/llm-engineering.html',
+      keywords: ["workflows", "production-ready", "engineering rigor", "prompt engineering", "natural languages", "challenges", "solutions", "control flows", "SQL executor", "bash", "web browsers", "third-party APIs", "use cases"]
+    },
+    {
+      title: '91% of ML Models Degrade in Time',
+      description: 'A recent study involving top institutions found that 91% of machine learning models degrade over time, emphasizing the importance of monitoring model performance in order to maintain accuracy and avoid failure in the ML industry.',
+      url: 'https://www.nannyml.com/blog/91-of-ml-perfomance-degrade-in-time',
+      keywords: ["model degradation", "performance", "temporal drift", "monitoring", "MIT", "Harvard", "University of Monterrey", "data drift", "NannyML", "covariate shift", "concept drift", "AI aging", "Linear Regression", "Random Forest Regressor", "XGBoost", "Multilayer Perceptron Neural Network", "framework", "mean squared error", "gradual degradation", "explosive degradation", "error variability", "retraining", "ground truth", "production"]
+    },
+    {
+      title: 'A New Approach to Computation Reimagines Artificial Intelligence',
+      description: 'Hyperdimensional computing, which represents information as single hyperdimensional vectors, offers a promising alternative to artificial neural networks by providing more efficient, robust, and transparent machine-made decisions.',
+      url: 'https://www.quantamagazine.org/a-new-approach-to-computation-reimagines-artificial-intelligence-20230413',
+      keywords: ["hyperdimensional computing", "artificial neural networks", "vectors", "efficiency", "robustness", "transparency", "machine-made decisions", "algebra", "symbolic reasoning", "error tolerance", "hardware", "in-memory computing", "orthogonality", "Pentti Kanerva", "Bruno Olshausen"]
+    },
+    {
       title: 'The Coming of Local LLMs',
       description: 'Advancements in local large language models (LLMs) may lead to more personalized privacy-sensitive applications on edge devices, with Apple and other consumer electronics companies potentially integrating LLMs into their products.',
       url: 'https://nickarner.com/notes/the-coming-of-local-llms-march-23-2023/',
