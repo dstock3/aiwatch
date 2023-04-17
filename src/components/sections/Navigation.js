@@ -4,7 +4,7 @@ import { LinkContainer } from 'react-router-bootstrap';
 
 const Navigation = () => {
   return (
-    <>
+    <header>
       <Navbar collapseOnSelect expand="lg">
         <Container>
           <LinkContainer to="/">
@@ -29,8 +29,7 @@ const Navigation = () => {
           </Navbar.Collapse>
         </Container>
       </Navbar>
-      <hr className="rule"></hr>
-    </>
+    </header>
   );
 };
 

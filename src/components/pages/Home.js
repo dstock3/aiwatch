@@ -34,11 +34,36 @@ const Home = () => {
         <title>AI Watch</title>
       </Helmet>
       <Container className="about-container my-5" style={{ maxWidth: '55%' }}>
-        // ...
+        <Row>
+          <Col xs={12} md={{ span: 8, offset: 2 }}>
+            <h1 className="mb-4">About AI Watch</h1>
+            <p>
+              AI Watch is a news outlet dedicated to providing the latest news, insights, and
+              discussions about artificial intelligence. Our goal is to educate and inspire our
+              viewers with high-quality content that explores the ever-evolving world of AI.
+            </p>
+            <p>
+              If you're interested in learning more about AI or staying up-to-date with the latest
+              developments, subscribe to AI Watch and join our growing community of AI enthusiasts.
+            </p>
+          </Col>
+        </Row>
       </Container>
       
       <Container className="my-5">
-        // ...
+        <Row>
+          <Card className="home-card">
+            <h1 className="text-center">Latest Video</h1>
+            <div className="embed-responsive embed-responsive-16by9 home-container">
+              <iframe
+                className="embed-responsive-video"
+                title="Latest Video"
+                src="https://www.youtube.com/embed/your-video-id"
+                allowFullScreen
+              ></iframe>
+            </div>
+          </Card>
+        </Row>
         <Row className="newsletter-container my-5 pb-4" style={{ maxWidth: '33%' }}>
           <Col>
             <h2 className="text-center">Subscribe to our Newsletter</h2>
