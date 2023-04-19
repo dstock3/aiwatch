@@ -1,5 +1,41 @@
 const resources = [
     {
+      title: 'v4.28.0: LLaMa, Pix2Struct, MatCha, DePlot, MEGA, NLLB-MoE, GPTBigCode',
+      description: "Hugging Face's new releases include various advancements in language models and techniques, such as LLaMA, Pix2Struct, Mega, GPTBigCode, and NLLB-MoE, as well as the introduction of 8-bit model serialization for improved memory usage and faster loading times.",
+      url: 'https://github.com/huggingface/transformers/releases/tag/v4.28.0',
+      keywords: ["LLaMA", "Pix2Struct", "Mega", "GPTBigCode", "NLLB-MoE", "Hugging Face", "multi-query attention", "moving average equipped gated attention", "mixture of experts", "8-bit models", "serialization", "memory efficiency"]
+    },
+    {
+      title: 'MiniGPT-4: Enhancing Vision-language Understanding with Advanced Large Language Models',
+      description: 'MiniGPT-4 combines a frozen visual encoder and an LLM using a single projection layer, undergoing a two-stage training process with self-created high-quality image-text pairs, resulting in efficient vision-language capabilities similar to GPT-4.',
+      url: 'https://minigpt-4.github.io/',
+      keywords: ["MiniGPT-4", "visual encoder", "BLIP-2", "LLM", "Vicuna", "pretraining", "finetuning", "image-text pairs", "ChatGPT", "vision-language capabilities", "GPT-4"]
+    },
+    {
+      title: 'RedPajama, a project to create leading open-source models, starts by reproducing LLaMA training dataset of over 1.2 trillion tokens',
+      description: 'RedPajama is a project aimed at creating fully open-source models, and it has successfully completed its first step by reproducing the LLaMA training dataset with over 1.2 trillion tokens.',
+      url: 'https://www.together.xyz/blog/redpajama',
+      keywords: ["Foundation models", "GPT-4", "open-source", "RedPajama", "LLaMA training dataset", "1.2 trillion tokens", "AI improvement"]
+    },
+    {
+      title: 'Emergent autonomous scientific research capabilities of large language models',
+      description: 'This paper introduces an Intelligent Agent system that combines multiple large language models for autonomous design, planning, and execution of scientific experiments, while addressing safety implications and potential misuse prevention.',
+      url: 'https://arxiv.org/ftp/arxiv/papers/2304/2304.05332.pdf',
+      keywords: ["Intelligent Agent", "large language models", "autonomous design", "scientific experiments", "cross-coupling reactions", "emergence", "safety implications", "misuse prevention"]
+    },
+    {
+      title: 'Language Instructed Reinforcement Learning for Human-AI Coordination',
+      description: 'InstructRL is a novel framework that leverages natural language instructions to guide multi-agent reinforcement learning, resulting in AI agents that align with human preferences and improve human-AI coordination performance in environments like the Hanabi benchmark.',
+      url: 'https://arxiv.org/abs/2304.07297',
+      keywords: ["instructRL", "AI agents", "human coordination", "natural language instructions", "multi-agent reinforcement learning", "human preferences", "prior policy", "Hanabi benchmark"]
+    },
+    {
+      title: 'Learning to Compress Prompts with Gist Tokens',
+      description: 'Gisting is a method that trains language models to compress prompts into smaller "gist" tokens for improved compute efficiency, enabling up to 26x compression, 40% FLOPs reduction, 4.2% wall time speedup, storage savings, and minimal output quality loss.',
+      url: 'https://arxiv.org/pdf/2304.08467.pdf',
+      keywords: ["gisting", "language models", "prompt compression", "compute efficiency", "FLOPs reduction", "speedup", "storage savings", "output quality"]
+    },
+    {
       title: 'Scaffolded LLMs as natural language computers',
       description: 'The article discusses the emergence of scaffolded LLMs as a new type of general-purpose natural language computer, highlighting their potential and analogies with digital computers.',
       url: 'https://www.beren.io/2023-04-11-Scaffolded-LLMs-natural-language-computers/',
