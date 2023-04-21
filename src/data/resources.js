@@ -1,5 +1,11 @@
 const resources = [
     {
+      title: 'Learning to Program with Natural Language',
+      description: 'LLMs can be trained with the Learning to Program (LP) method to understand natural language programs and perform better in complex tasks, showing improved performance in high school and competition math problems.',
+      url: 'https://arxiv.org/pdf/2304.10464.pdf',
+      keywords:  ['Large Language Models', 'LLMs', 'Artificial General Intelligence', 'natural language', 'programming language', 'task procedures', 'Learning to Program', 'LP method', 'training dataset', 'complex tasks', 'AMPS', 'high school math', 'competition mathematics problems', 'ChatGPT', 'performance', 'zero-shot test']
+    },
+    {
       title: 'v4.28.0: LLaMa, Pix2Struct, MatCha, DePlot, MEGA, NLLB-MoE, GPTBigCode',
       description: "Hugging Face's new releases include various advancements in language models and techniques, such as LLaMA, Pix2Struct, Mega, GPTBigCode, and NLLB-MoE, as well as the introduction of 8-bit model serialization for improved memory usage and faster loading times.",
       url: 'https://github.com/huggingface/transformers/releases/tag/v4.28.0',
