@@ -1,5 +1,17 @@
 const resources = [
     {
+      title: 'Building A ChatGPT-enhanced Python REPL',
+      description: 'This blog discusses the creation of GEPL, a Python REPL enhanced with ChatGPT, exploring the architecture, prompts, and potential software engineering patterns that may arise from systems built on large language models.',
+      url: 'https://isthisit.nz/posts/2023/building-a-chat-gpt-enhanced-python-repl/',
+      keywords: ['Machine Learning', 'Data Science', 'AI', 'Python', 'Data Visualization', 'Linear Regression', 'Logistic Regression', 'Decision Trees', 'Neural Networks', 'Deep Learning', 'Natural Language Processing', 'Model Evaluation', 'Scikit-learn', 'TensorFlow', 'Keras', 'PyTorch', 'Pandas', 'NumPy', 'Time Series Analysis']
+    },
+    {
+      title: 'Why Does ChatGPT Fall Short in Answering Questions Faithfully?',
+      description: 'ChatGPT faces challenges in faithfully answering questions due to shortcomings in comprehension, factualness, specificity, and inference; improvements can be achieved through integrating external knowledge, providing knowledge association hints, and guiding reasoning.',
+      url: 'https://arxiv.org/abs/2304.10513',
+      keywords: ['Large Language Models', 'ChatGPT', 'faithfulness', 'question answering', 'complex open-domain', 'comprehension', 'factualness', 'specificity', 'inference', 'knowledge memorization', 'knowledge association', 'knowledge reasoning', 'external knowledge', 'hints', 'reasoning guidance']
+    },
+    {
       title: 'Learning to Program with Natural Language',
       description: 'LLMs can be trained with the Learning to Program (LP) method to understand natural language programs and perform better in complex tasks, showing improved performance in high school and competition math problems.',
       url: 'https://arxiv.org/pdf/2304.10464.pdf',
