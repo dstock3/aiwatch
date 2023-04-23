@@ -1,5 +1,17 @@
 const resources = [
     {
+      title: 'Low-code LLM: Visual Programming over LLMs',
+      description: 'The Low-code LLM framework introduces a user-friendly, visual programming approach for more controllable and stable responses, bridging the gap between humans and LLMs for efficient, complex task management.',
+      url: 'https://arxiv.org/pdf/2304.08103.pdf',
+      keywords: ["LLMs", "complex tasks", "prompt engineering", "Low-code LLM", "visual programming interactions", "graphical user interface", "Planning LLM", "Executing LLM", "controllable generation results", "human-LLM interaction", "broadly applicable scenarios", "LowCodeLLM"]
+    },
+    {
+      title: 'Align your Latents: High-Resolution Video Synthesis with Latent Diffusion Models',
+      description: 'By incorporating a temporal dimension into Latent Diffusion Models (LDMs), high-resolution video generation becomes possible, achieving top performance in driving simulations and personalized text-to-video content creation.',
+      url: 'https://arxiv.org/pdf/2304.08818.pdf',
+      keywords: ["Latent Diffusion Models", "LDMs", "high-resolution video generation", "temporal dimension", "encoded sequences", "state-of-the-art performance", "driving simulations", "text-to-video content creation", "personalization"]
+    },
+    {
       title: 'Building A ChatGPT-enhanced Python REPL',
       description: 'This blog discusses the creation of GEPL, a Python REPL enhanced with ChatGPT, exploring the architecture, prompts, and potential software engineering patterns that may arise from systems built on large language models.',
       url: 'https://isthisit.nz/posts/2023/building-a-chat-gpt-enhanced-python-repl/',
