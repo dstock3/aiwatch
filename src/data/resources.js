@@ -1,5 +1,6 @@
 const resources = [
     {
+<<<<<<< HEAD
       title: 'Low-code LLM: Visual Programming over LLMs',
       description: 'The Low-code LLM framework introduces a user-friendly, visual programming approach for more controllable and stable responses, bridging the gap between humans and LLMs for efficient, complex task management.',
       url: 'https://arxiv.org/pdf/2304.08103.pdf',
@@ -10,6 +11,42 @@ const resources = [
       description: 'By incorporating a temporal dimension into Latent Diffusion Models (LDMs), high-resolution video generation becomes possible, achieving top performance in driving simulations and personalized text-to-video content creation.',
       url: 'https://arxiv.org/pdf/2304.08818.pdf',
       keywords: ["Latent Diffusion Models", "LDMs", "high-resolution video generation", "temporal dimension", "encoded sequences", "state-of-the-art performance", "driving simulations", "text-to-video content creation", "personalization"]
+=======
+      title: 'Controlled Text Generation with Natural Language Instructions',
+      description: 'InstructCTG is a controlled text generation framework that uses natural language instructions and demonstrations to incorporate various constraints, providing flexibility, minimal impact on generation quality and speed, and adaptability to new constraints.',
+      url: 'https://arxiv.org/pdf/2304.14293.pdf',
+      keywords: ['Controlled Text Generation', 'Natural Language Instructions', 'InstructCTG', 'Language Model', 'Constraints', 'Weakly Supervised Training Data', 'Decoding Procedure', 'Few-shot Task Generalization', 'In-context Learning', 'NLP Tools']
+    },
+    {
+      title: 'LLM+P: Empowering Large Language Models with Optimal Planning Proficiency',
+      description: 'LLM+P is a framework that combines classical planners with large language models to solve long-horizon planning problems, converting natural language descriptions into PDDL files and translating solutions back into natural language.',
+      url: 'https://arxiv.org/pdf/2304.11477.pdf',
+      keywords: ['Large Language Models', 'LLM+P', 'Classical Planners', 'Long-horizon Planning', 'Planning Domain Definition Language', 'PDDL', 'Natural Language', 'Optimal Planning', 'Benchmark Problems', 'Zero-shot Generalization']
+    },
+    {
+      title: 'Tractable Control for Autoregressive Language Generation',
+      description: 'GeLaTo, a framework that uses tractable probabilistic models for imposing lexical constraints in autoregressive text generation, demonstrates state-of-the-art performance on the challenging CommonGen benchmark.',
+      url: 'https://arxiv.org/pdf/2304.07438.pdf',
+      keywords: ['Autoregressive Language Generation', 'Text Generation', 'Lexical Constraints', 'Intractable Probabilistic Models', 'Tractable Probabilistic Models', 'GeLaTo', 'Hidden Markov Models', 'GPT2', 'CommonGen', 'Controlled Language Models']
+    },
+    {
+      title: 'Unleashing Infinite-Length Input Capacity for Large-scale Language Models with Self-Controlled Memory System',
+      description: 'The Self-Controlled Memory (SCM) system is proposed to enable large-scale language models to process infinite-length inputs, enhancing capabilities in multi-turn dialogues and ultra-long document summarization.',
+      url: 'https://arxiv.org/pdf/2304.13343.pdf',
+      keywords: ['Large-scale Language Models', 'Infinite-Length Input', 'Self-Controlled Memory', 'Language Model Agent', 'Memory Stream', 'Memory Controller', 'Long-term Memory', 'Short-term Memory', 'Multi-turn Dialogue', 'Ultra-long Document Summarization']
+    },
+    {
+      title: 'Generative AI at Work',
+      description: 'A study on the introduction of a generative AI-based conversational assistant in customer support shows increased productivity, especially for novice and low-skilled workers, as well as improved customer sentiment and employee retention.',
+      url: 'https://www.nber.org/papers/w31161',
+      keywords: ['Generative AI', 'Conversational Assistant', 'Customer Support', 'Productivity', 'Novice Workers', 'Low-skilled Workers', 'Tacit Knowledge', 'Experience Curve', 'Customer Sentiment', 'Employee Retention']
+    },
+    {
+      title: 'REFINER: Reasoning Feedback on Intermediate Representations',
+      description: 'REFINER is a framework that improves language models on reasoning tasks by generating intermediate steps and receiving feedback from a critic model.',
+      url: 'https://arxiv.org/pdf/2304.01904.pdf',
+      keywords: ['Language Models', 'Reasoning Tasks', 'Critic Model', 'Intermediate Inferences', 'Structured Feedback', 'Iterative Improvement', 'GPT3.5', 'Automated Feedback', 'No Human-in-the-loop Data']
+>>>>>>> 55253c2 (added to resources.)
     },
     {
       title: 'Building A ChatGPT-enhanced Python REPL',
