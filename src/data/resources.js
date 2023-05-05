@@ -1,5 +1,11 @@
 const resources = [
     {
+      title: 'Principle-Driven Self-Alignment of Language Models from Scratch with Minimal Human Supervision',
+      url: 'https://arxiv.org/pdf/2305.03047',
+      description: "SELF-ALIGN is a novel approach combining principle-driven reasoning and LLMs' generative power to align AI agents with minimal human supervision. It involves generating synthetic prompts, in-context learning with human-written principles, fine-tuning LLMs, and refining responses. Applied to LLaMA-65b, Dromedary is created with fewer than 300 human annotations and outperforms state-of-the-art AI systems on benchmark datasets.",
+      keywords: ['AI-assistant agents', 'ChatGPT', 'Supervised Fine-Tuning', 'Reinforcement Learning', 'Human Feedback', 'Language Models', 'Human Supervision', 'SELF-ALIGN', 'Principle-Driven Reasoning', 'Generative Power', 'LLMs', 'In-Context Learning', 'LLaMA-65b', 'Dromedary']
+    },
+    {
       title: 'Google "We Have No Moat, And Neither Does OpenAI"',
       description: 'Google and OpenAI are being outpaced by open-source developments in LLMs. Open-source models are faster, more customizable, more private, and more capable, and they are making rapid progress with lower costs and smaller parameter sizes.',
       url: 'https://www.semianalysis.com/p/google-we-have-no-moat-and-neither',
