@@ -1,6 +1,11 @@
 const resources = [
     {
-<<<<<<< HEAD
+      title: 'Google "We Have No Moat, And Neither Does OpenAI"',
+      description: 'Google and OpenAI are being outpaced by open-source developments in LLMs. Open-source models are faster, more customizable, more private, and more capable, and they are making rapid progress with lower costs and smaller parameter sizes.',
+      url: 'https://www.semianalysis.com/p/google-we-have-no-moat-and-neither',
+      keywords: ['Google', 'OpenAI', 'Open Source', 'LLMs', 'Foundation Models', 'Scalable Personal AI', 'Responsible Release', 'Multimodality', 'Innovation', 'LoRA', 'Data Quality', 'Iterative Improvements', 'Distillation', 'Collaboration', '3P Integrations']
+    },
+    {
       title: 'Low-code LLM: Visual Programming over LLMs',
       description: 'The Low-code LLM framework introduces a user-friendly, visual programming approach for more controllable and stable responses, bridging the gap between humans and LLMs for efficient, complex task management.',
       url: 'https://arxiv.org/pdf/2304.08103.pdf',
@@ -11,7 +16,8 @@ const resources = [
       description: 'By incorporating a temporal dimension into Latent Diffusion Models (LDMs), high-resolution video generation becomes possible, achieving top performance in driving simulations and personalized text-to-video content creation.',
       url: 'https://arxiv.org/pdf/2304.08818.pdf',
       keywords: ["Latent Diffusion Models", "LDMs", "high-resolution video generation", "temporal dimension", "encoded sequences", "state-of-the-art performance", "driving simulations", "text-to-video content creation", "personalization"]
-=======
+    },
+    {
       title: 'Controlled Text Generation with Natural Language Instructions',
       description: 'InstructCTG is a controlled text generation framework that uses natural language instructions and demonstrations to incorporate various constraints, providing flexibility, minimal impact on generation quality and speed, and adaptability to new constraints.',
       url: 'https://arxiv.org/pdf/2304.14293.pdf',
@@ -46,7 +52,6 @@ const resources = [
       description: 'REFINER is a framework that improves language models on reasoning tasks by generating intermediate steps and receiving feedback from a critic model.',
       url: 'https://arxiv.org/pdf/2304.01904.pdf',
       keywords: ['Language Models', 'Reasoning Tasks', 'Critic Model', 'Intermediate Inferences', 'Structured Feedback', 'Iterative Improvement', 'GPT3.5', 'Automated Feedback', 'No Human-in-the-loop Data']
->>>>>>> 55253c2 (added to resources.)
     },
     {
       title: 'Building A ChatGPT-enhanced Python REPL',
