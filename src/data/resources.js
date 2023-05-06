@@ -1,5 +1,11 @@
 const resources = [
     {
+    title: 'Releasing 3B and 7B RedPajama-INCITE family of models including base, instruction-tuned & chat models',
+    url: 'https://www.together.xyz/blog/redpajama-models-v1',
+    description: 'The RedPajama project releases RedPajama-INCITE models, including 3B and 7B parameter base models, as well as open-source instruction-tuned and chat models. The 3B model is fast and accessible, performing well on the HELM benchmark. The 7B model outperforms the Pythia 7B model, demonstrating the value of the RedPajama base dataset. Future plans include improving the dataset and building larger scale models.',
+    keywords: ['RedPajama', 'INCITE', 'Open-Source Models', 'LLaMA', '3B Model', '7B Model', 'Instruction-Tuned', 'Chat Models', 'HELM Benchmark', 'Pythia 7B', 'Base Dataset']
+    },
+    {
       title: 'Principle-Driven Self-Alignment of Language Models from Scratch with Minimal Human Supervision',
       url: 'https://arxiv.org/pdf/2305.03047',
       description: "SELF-ALIGN is a novel approach combining principle-driven reasoning and LLMs' generative power to align AI agents with minimal human supervision. It involves generating synthetic prompts, in-context learning with human-written principles, fine-tuning LLMs, and refining responses. Applied to LLaMA-65b, Dromedary is created with fewer than 300 human annotations and outperforms state-of-the-art AI systems on benchmark datasets.",
