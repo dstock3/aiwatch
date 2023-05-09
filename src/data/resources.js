@@ -1,5 +1,11 @@
 const resources = [
   {
+  "title": "Giving GPT 'Infinite' Knowledge",
+  "url": "https://sudoapps.substack.com/p/giving-gpt-infinite-knowledge",
+  "description": "This article discusses the limitations of training Large Language Models (LLMs) like GPT with a knowledge cutoff and explores the idea of providing LLMs with real-time, relevant data for better understanding and interpretation. It highlights the diminishing returns of training larger models and suggests a shift in focus to improve LLMs in other ways. The article covers four core areas: tokens, embeddings, vector storage, and prompting, which could help provide LLMs with access to more data and enhance their usefulness.",
+  "keywords": ["GPT", "knowledge", "Large Language Models", "real-time data", "tokens", "embeddings", "vector storage", "prompting", "Sam Altman", "OpenAI"]
+  },
+  {
     "title": "Common Arguments Regarding Emergent Abilities",
     "url": "https://www.jasonwei.net/blog/common-arguments-regarding-emergent-abilities",
     "description": "This blog post reviews common arguments about the emergent abilities of large language models. Emergent abilities are notable for not being easily predicted, not being explicitly specified by trainers, and having an unknown full range. Despite some arguing that emergence is overstated or a 'mirage', the blog post aims to examine these arguments with a skeptical perspective and provide insights on the phenomenon.",
