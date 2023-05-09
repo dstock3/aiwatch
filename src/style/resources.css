@@ -51,13 +51,13 @@
 }
 
 .resources-container .search-input::placeholder {
-    color: #007bff !important;
+    color: #003267 !important;
     opacity: 0.5 !important;
 }
 
 .resources-container .search-input:focus {
     box-shadow: none !important;
-    border-color: #0056b3 !important;
+    border-color: #003267 !important;
     background-color: #ffffff !important;
     color: #000000 !important;
 }

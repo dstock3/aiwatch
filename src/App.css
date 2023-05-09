@@ -4,8 +4,7 @@
 }
 
 header {
-    border-bottom: 3px solid rgb(59 130 246);
-    background-color: #000810;  
+    border-bottom: 2px solid rgb(59 130 246);
 }
 
 #ai-watch-brand {
@@ -49,7 +48,6 @@ footer {
     min-height: 12vh;
     width: 100%;
     bottom: 0;
-    background-color: #000810;  
 }
 
 .gradient {
