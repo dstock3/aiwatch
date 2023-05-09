@@ -1,4 +1,10 @@
 const resources = [
+  {
+    "title": "Common Arguments Regarding Emergent Abilities",
+    "url": "https://www.jasonwei.net/blog/common-arguments-regarding-emergent-abilities",
+    "description": "This blog post reviews common arguments about the emergent abilities of large language models. Emergent abilities are notable for not being easily predicted, not being explicitly specified by trainers, and having an unknown full range. Despite some arguing that emergence is overstated or a 'mirage', the blog post aims to examine these arguments with a skeptical perspective and provide insights on the phenomenon.",
+    "keywords": ["emergent abilities", "large language models", "scaling curves", "next word prediction", "GPT-4", "phenomenon", "skeptical perspective"]
+    },
     {
     title: 'Releasing 3B and 7B RedPajama-INCITE family of models including base, instruction-tuned & chat models',
     url: 'https://www.together.xyz/blog/redpajama-models-v1',
