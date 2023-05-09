@@ -1,5 +1,11 @@
 const resources = [
   {
+  "title": "Using ChatGPT to generate a GPT project end-to-end",
+  "url": "https://github.com/ixaxaar/VardaGPT/blob/master/STORY.md",
+  "description": "This project explores the potential of ChatGPT as a development tool and envisions its impact on programming and product management. The author proposes the idea of attaching a memory module to a GPT to address the 'low memory' problem of language models. The project is an experiment to understand whether ChatGPT can work as a pair programmer, like GitHub Copilot++, or even replace programmers so product managers can directly build features using the AI.",
+  "keywords": ["ChatGPT", "GPT", "memory module", "language models", "GitHub Copilot", "programming", "product management", "AI"]
+  },
+  {
   "title": "Giving GPT 'Infinite' Knowledge",
   "url": "https://sudoapps.substack.com/p/giving-gpt-infinite-knowledge",
   "description": "This article discusses the limitations of training Large Language Models (LLMs) like GPT with a knowledge cutoff and explores the idea of providing LLMs with real-time, relevant data for better understanding and interpretation. It highlights the diminishing returns of training larger models and suggests a shift in focus to improve LLMs in other ways. The article covers four core areas: tokens, embeddings, vector storage, and prompting, which could help provide LLMs with access to more data and enhance their usefulness.",
