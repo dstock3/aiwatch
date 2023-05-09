@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Row, Col, Form, Card, Button } from 'react-bootstrap';
+import { Container, Row, Col, Card, Form, Button } from 'react-bootstrap';
 import '../../style/home.css';
 import { Helmet } from 'react-helmet';
 
@@ -33,49 +33,48 @@ const Home = () => {
       <Helmet>
         <title>AI Watch</title>
       </Helmet>
-      <Container className="about-container my-5" style={{ maxWidth: '55%' }}>
-        <Row>
-          <Col xs={12} md={{ span: 8, offset: 2 }}>
-            <h1 className="mb-4">About AI Watch</h1>
-            <p>
-              AI Watch is a news outlet dedicated to providing the latest news, insights, and
-              discussions about artificial intelligence. Our goal is to educate and inspire our
-              viewers with high-quality content that explores the ever-evolving world of AI.
-            </p>
-            <p>
-              If you're interested in learning more about AI or staying up-to-date with the latest
-              developments, subscribe to AI Watch and join our growing community of AI enthusiasts.
-            </p>
+      <Container fluid className="home-container">
+        <Row className="home-row">
+          <Col md={6} className="py-5 about-section">
+            <Card className="h-100 shadow-lg bg-dark text-white rounded">
+              <Card.Body>
+                <h1 className="mb-4 text-center">About AI Watch</h1>
+                <p>AI Watch is a news outlet...</p>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col md={6} className="py-5 video-section">
+            <Card className="h-100 shadow-lg bg-dark text-white rounded">
+              <Card.Body>
+                <h1 className="text-center">Latest Video</h1>
+                <div className="embed-responsive embed-responsive-16by9 home-video">
+                  <iframe
+                    className="embed-responsive-item"
+                    title="Latest Video"
+                    src="https://www.youtube.com/embed/your-video-id"
+                    allowFullScreen
+                  ></iframe>
+                </div>
+              </Card.Body>
+            </Card>
           </Col>
         </Row>
-      </Container>
-      
-      <Container className="my-5">
-        <Row>
-          <Card className="home-card">
-            <h1 className="text-center">Latest Video</h1>
-            <div className="embed-responsive embed-responsive-16by9 home-container">
-              <iframe
-                className="embed-responsive-video"
-                title="Latest Video"
-                src="https://www.youtube.com/embed/your-video-id"
-                allowFullScreen
-              ></iframe>
-            </div>
-          </Card>
-        </Row>
-        <Row className="newsletter-container my-5 pb-4" style={{ maxWidth: '33%' }}>
-          <Col>
-            <h2 className="text-center">Subscribe to our Newsletter</h2>
-            <p>Get the latest AI news and updates straight to your inbox:</p>
-            <Form onSubmit={handleNewsletterSubmit} inline className="d-flex justify-content-center">
-              <Form.Group controlId="newsletterForm.Email">
-                <Form.Control type="email" placeholder="Enter your email" />
-              </Form.Group>
-              <Button variant="primary" type="submit" className="ms-2">
-                Subscribe
-              </Button>
-            </Form>
+        <Row className="home-row">
+          <Col className="py-5 newsletter-section">
+            <Card className="h-100 shadow-lg bg-dark text-white rounded">
+              <Card.Body>
+                <h2 className="text-center">Subscribe to our Newsletter</h2>
+                <p className="text-center">Get the latest AI news...</p>
+                <Form onSubmit={handleNewsletterSubmit} className="d-flex justify-content-center">
+                  <Form.Group controlId="newsletterForm.Email">
+                    <Form.Control type="email" placeholder="Enter your email" />
+                  </Form.Group>
+                  <Button variant="primary" type="submit" className="ms-2">
+                    Subscribe
+                  </Button>
+                </Form>
+              </Card.Body>
+            </Card>
           </Col>
         </Row>
       </Container>

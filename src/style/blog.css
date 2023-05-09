@@ -1,3 +1,7 @@
+.blog-container {
+    background: linear-gradient(180deg, #001327, #000810);
+}
+
 .bloglist-item {
     cursor: pointer;
 }

@@ -50,18 +50,23 @@ const Blog = () => {
           <Row>
             <Col md={8}>
               {blog && (
-                <Card className="mb-4">
+                <Card className="blog-container mb-4">
                   <Card.Img
+                    className="blog-img"
                     variant="top"
                     src={blog.img}
                     alt={blog.title}
                   />
                   <Card.Body>
-                    <Card.Title>{blog.title}</Card.Title>
-                    <Card.Subtitle className="mt-1 mb-2">
+                    <Card.Title className="blog-title">
+                      {blog.title}
+                    </Card.Title>
+                    <Card.Subtitle className="blog-subtitle mt-1 mb-2">
                       <i>{blog.date}</i>
                     </Card.Subtitle>
-                    <Card.Text>{blog.text}</Card.Text>
+                    <Card.Text className="blog-body">
+                      {blog.text}
+                    </Card.Text>
                     <Button onClick={() => setShow(true)}>Want updates?</Button>
                   </Card.Body>
                 </Card>

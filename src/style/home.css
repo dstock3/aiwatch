@@ -1,12 +1,29 @@
 .home-container {
-    width: 80%;
-    height: 0;
-    padding-bottom: 45%;
-    position: relative;
-    margin: 0 auto;
+    background-color: #001327;
 }
-  
-.embed-responsive-video {
+
+.home-row {
+    margin: 0 auto;
+    max-width: 1400px;
+}
+
+.about-section, .video-section, .newsletter-section {
+    border-radius: 2rem;
+    padding: 2rem;
+}
+
+.about-section h1, .video-section h1, .newsletter-section h2 {
+    text-align: center;
+    color: #59befc;
+}
+
+.home-video {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+}
+
+.home-video iframe {
     position: absolute;
     top: 0;
     left: 0;
@@ -14,7 +31,16 @@
     height: 100%;
 }
 
-.newsletter-container, .about-container {
-    border-radius: 2rem;
-    padding-block: 1rem;
+.newsletter-section p, 
+.newsletter-section form {
+    text-align: center;
+}
+
+.newsletter-section .form-control {
+    display: inline-block;
+    width: auto;
+}
+
+.newsletter-section button {
+    margin-top: 1rem;
 }

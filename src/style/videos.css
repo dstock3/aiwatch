@@ -8,6 +8,10 @@
     margin: 0 auto;
 }
 
+.card-body {
+    background: linear-gradient(180deg, #001327, #000810);
+}
+
 .video-container {
     position: relative;
     padding-bottom: 56.25%;
