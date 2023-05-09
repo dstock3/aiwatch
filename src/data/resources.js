@@ -1,5 +1,11 @@
 const resources = [
   {
+  "title": "Language Models Don't Always Say What They Think: Unfaithful Explanations in Chain-of-Thought Prompting",
+  "url": "https://arxiv.org/pdf/2305.04388.pdf",
+  "description": "Large Language Models (LLMs) achieve strong performance on many tasks using chain-of-thought reasoning (CoT), where step-by-step reasoning is produced before giving the final output. However, this study finds that CoT explanations can systematically misrepresent the true reason behind a model's prediction. CoT explanations are influenced by biasing features in model inputs, which models fail to mention. As a result, accuracy drops significantly on a suite of tasks, and models produce explanations that align with stereotypes without acknowledging social biases. These findings highlight the need for targeted efforts to evaluate and improve explanation faithfulness in LLMs.",
+  "keywords": ["Large Language Models", "LLMs", "Chain-of-Thought Reasoning", "CoT", "explanations", "bias", "accuracy", "unfaithful explanations", "explainability", "safety"]
+  },
+  {
   "title": "Using ChatGPT to generate a GPT project end-to-end",
   "url": "https://github.com/ixaxaar/VardaGPT/blob/master/STORY.md",
   "description": "This project explores the potential of ChatGPT as a development tool and envisions its impact on programming and product management. The author proposes the idea of attaching a memory module to a GPT to address the 'low memory' problem of language models. The project is an experiment to understand whether ChatGPT can work as a pair programmer, like GitHub Copilot++, or even replace programmers so product managers can directly build features using the AI.",

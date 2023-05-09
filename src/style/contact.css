@@ -1,5 +1,5 @@
 .contact-container {
-    background-color: #000810;
+    background: linear-gradient(180deg, #001327, #000810);
     padding-block: 2rem;
     border-radius: 1rem;
     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
