@@ -2,7 +2,12 @@
     background: linear-gradient(180deg, #001327, #000810);
 }
 
+.list-group-item {
+    background: linear-gradient(180deg, #001327, #000810);  
+}
+
 .bloglist-item {
+    color: #007bff;
     cursor: pointer;
 }
 
@@ -19,3 +24,14 @@
     font-style: italic;
 }
 
+.modal-dialog {
+    border: 3px solid rgb(59 130 246);
+    border-radius: 1rem;
+}
+
+.modal-content {
+    background: linear-gradient(180deg, #001327, #000810);   
+}
+.modal-header, .modal-body {
+    color: #007bff;
+}

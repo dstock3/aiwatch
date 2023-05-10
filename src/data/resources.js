@@ -1,5 +1,29 @@
 const resources = [
   {
+    "title": "The Leverage of LLMs for Individuals",
+    "url": "https://mazzzystar.github.io/2023/05/10/LLM-for-individual/",
+    "description": "This blog emphasizes the potential of large language models like GPT-4 in amplifying individual developers' productivity. The author shares how GPT-4 helped create a podcast search website and a Chrome extension with no prior experience. The post argues that these models offer greater leverage to individual developers than to those in companies, and discusses GPT-4's use in tasks like translation and interface writing.",
+    "keywords": ["Large Language Models", "GPT-4", "Productivity", "Individual Developers", "Creativity"]
+  },
+  {
+    "title": "Towards Building the Federated GPT: Federated Instruction Tuning",
+    "url": "https://arxiv.org/pdf/2305.05644.pdf",
+    "description": "This paper introduces Federated Instruction Tuning (FedIT), a new approach that uses federated learning for tuning large language models (LLMs). It aims to leverage diverse instructions from users' devices while ensuring privacy and data security. FedIT improves LLM performance by utilizing a wider range of instructions compared to traditional centralized training methods. The researchers also developed Shepherd, a Github repository for exploring federated fine-tuning of LLMs.",
+    "keywords": ["Federated Instruction Tuning", "FedIT", "Large Language Models", "LLMs", "Federated Learning", "Shepherd"]
+  },
+  {
+    "title": "Explanation-based Finetuning Makes Models More Robust to Spurious Cues",
+    "url": "https://arxiv.org/pdf/2305.04990.pdf",
+    "description": "This paper introduces explanation-based finetuning as a method to reduce the dependency of Large Language Models (LLMs) on irrelevant correlations. In addition to predicting the answer, the model is fine-tuned to generate a free-text explanation for its answer. This approach, when tested on artificially constructed datasets with different types of spurious cues, improved the model's robustness across four classification tasks significantly. The method also works well with model-generated explanations, expanding its applicability.",
+    "keywords": ["Large Language Models", "LLMs", "Explanation-based Finetuning", "Spurious Correlations", "Robustness", "Classification Tasks"]
+  },
+  {
+    "title": "TidyBot: Personalized Robot Assistance with Large Language Models",
+    "url": "https://arxiv.org/abs/2305.05658",
+    "description": "This study explores the personalization of robot assistance for household cleanup tasks, with the goal of learning user preferences that can be reapplied in future scenarios. The challenge lies in determining where to put each object, which can vary greatly based on personal or cultural preferences. The researchers show that robots can use language-based planning, perception, and the few-shot summarization capabilities of large language models (LLMs) to infer generalized user preferences for future interactions. This approach shows high accuracy in unseen objects and has been successfully demonstrated on a real-world robot called TidyBot.",
+    "keywords": ["Robot Assistance", "Large Language Models", "LLMs", "Personalization", "User Preferences", "TidyBot"]
+  },
+  {
     "title": "Language Models Don't Always Say What They Think: Unfaithful Explanations in Chain-of-Thought Prompting",
     "url": "https://arxiv.org/pdf/2305.04388.pdf",
     "description": "Large Language Models (LLMs) achieve strong performance on many tasks using chain-of-thought reasoning (CoT), where step-by-step reasoning is produced before giving the final output. However, this study finds that CoT explanations can systematically misrepresent the true reason behind a model's prediction. CoT explanations are influenced by biasing features in model inputs, which models fail to mention. As a result, accuracy drops significantly on a suite of tasks, and models produce explanations that align with stereotypes without acknowledging social biases. These findings highlight the need for targeted efforts to evaluate and improve explanation faithfulness in LLMs.",
