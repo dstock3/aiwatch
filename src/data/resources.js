@@ -1,5 +1,11 @@
 const resources = [
   {
+    "title": "Active Retrieval Augmented Generation",
+    "url": "https://arxiv.org/pdf/2305.06983.pdf",
+    "description": "This research introduces FLARE, a method to improve large language models by actively retrieving external information during generation. FLARE anticipates future content and retrieves relevant documents, enhancing the accuracy of generated text. It showed strong performance across several knowledge-intensive tasks.",
+    "keywords": ["Large Language Models", "Active Retrieval", "Augmented Generation", "FLARE"]
+  },
+  {
     "title": "The Leverage of LLMs for Individuals",
     "url": "https://mazzzystar.github.io/2023/05/10/LLM-for-individual/",
     "description": "This blog emphasizes the potential of large language models like GPT-4 in amplifying individual developers' productivity. The author shares how GPT-4 helped create a podcast search website and a Chrome extension with no prior experience. The post argues that these models offer greater leverage to individual developers than to those in companies, and discusses GPT-4's use in tasks like translation and interface writing.",
