@@ -1,0 +1,84 @@
+.resources-head {
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+    border-bottom: 3px solid rgb(59 130 246);
+    background: linear-gradient(180deg, #001327, #000810);
+}
+
+.resource-card-body a {
+    color: white;
+}
+
+.horizontal-rule {
+    border: 3px solid rgb(59 130 246);
+    border-radius: 2px;
+}
+
+.resource-card-body {
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+    background-color: #000810;
+    border: 3px solid rgb(59 130 246);
+}
+
+.keyword-box {
+    display: inline-block;
+    background-color: #001327;
+    color: white;
+    padding: 2px 5px;
+    border-radius: 5px;
+    margin-right: 3px;
+    cursor: pointer;
+    font-size: .75rem;
+}
+  
+.keyword-box:hover {
+    background-color: rgb(48, 106, 199);
+}
+
+.resources-container .search-input {
+    padding: 0.5rem 1rem !important;
+    border-radius: 15px !important;
+    border-bottom-right-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+    border: 2px solid #007bff !important;
+    border-right: none !important;
+    transition: all 0.3s ease !important;
+    background-color: white !important;
+    color: #007bff !important;
+}
+
+.resources-container .search-input::placeholder {
+    color: #003267 !important;
+    opacity: 0.5 !important;
+}
+
+.resources-container .search-input:focus {
+    box-shadow: none !important;
+    border-color: #003267 !important;
+    background-color: #ffffff !important;
+    color: #000000 !important;
+}
+
+.resources-container .search-input:focus::placeholder {
+    color: #0056b3 !important;
+    opacity: 0.5 !important;
+}
+
+.resources-container .search-button {
+    border-radius: 15px !important;
+    border-bottom-left-radius: 0 !important;
+    border-top-left-radius: 0 !important;
+    border-color: #0056b3 !important;
+    background-color: #0056b3 !important;
+    color: #ffffff !important;
+    padding: 0.5rem 1rem !important;
+    transition: all 0.3s ease !important;
+}
+
+.resources-container .search-button:hover {
+    background-color: #185392 !important;
+    border-color: #185392 !important;
+}

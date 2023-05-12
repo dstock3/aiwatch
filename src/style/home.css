@@ -1,0 +1,42 @@
+.home-container {
+    background-color: #001327;
+}
+
+.home-row {
+    margin: 0 auto;
+    max-width: 1400px;
+}
+
+.about-section, .video-section, .newsletter-section {
+    border-radius: 2rem;
+    padding: 2rem;
+}
+
+.about-section h1, .video-section h1, .newsletter-section h2 {
+    text-align: center;
+    color: #59befc;
+}
+
+.home-video {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+}
+
+.home-video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.newsletter-section p, 
+.newsletter-section form {
+    text-align: center;
+}
+
+.newsletter-section .form-control {
+    display: inline-block;
+    width: auto;
+}

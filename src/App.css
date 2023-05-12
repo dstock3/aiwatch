@@ -1,0 +1,55 @@
+.App {
+    color: rgb(59 130 246);
+    background-color: #001327;
+}
+
+header {
+    border-bottom: 2px solid rgb(59 130 246);
+}
+
+#ai-watch-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgb(77, 143, 248) !important;
+}
+
+#ai-watch-brand:hover {
+    color: rgb(105, 157, 241) !important;
+    transform: scale(1.1);
+}
+
+.ai-watch-link {
+    color: rgb(59 130 246) !important;
+    margin: 0 0.5rem;
+    text-decoration: none;
+}
+
+.ai-watch-link:hover {
+    color: rgb(105, 157, 241) !important;
+    transform: scale(1.1);
+}   
+
+#responsive-navbar-nav {
+    position: relative;
+    min-height: 12vh;
+    width: 100%;
+}
+
+.main-content {
+    min-height: 75vh;
+}
+
+footer {
+    border-top: 3px solid rgb(59 130 246);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    min-height: 12vh;
+    width: 100%;
+    bottom: 0;
+}
+
+.gradient {
+    background: linear-gradient(180deg, #212e39, #191c1f);
+}
