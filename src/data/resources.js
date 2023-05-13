@@ -1,5 +1,11 @@
 const resources = [
   {
+    "title": "Web browsing and Plugins are now rolling out in beta (May 12)",
+    "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes#h_9894d7b0a4",
+    "description": "OpenAI is rolling out new experimental features for ChatGPT Plus users: Web browsing and Plugins. The 'Web browsing' feature allows ChatGPT to browse the internet to answer recent topics and events. The 'Plugins' feature allows it to use enabled third-party plugins. Users can activate these features from a new beta panel in their settings. Other updates include options to turn off chat history, data exportability, and deprecation of the Legacy (GPT-3.5) model.",
+    "keywords": ["OpenAI", "ChatGPT Plus", "Web browsing", "Plugins", "Beta features"]
+  },
+  {
     "title": "Active Retrieval Augmented Generation",
     "url": "https://arxiv.org/pdf/2305.06983.pdf",
     "description": "This research introduces FLARE, a method to improve large language models by actively retrieving external information during generation. FLARE anticipates future content and retrieves relevant documents, enhancing the accuracy of generated text. It showed strong performance across several knowledge-intensive tasks.",
