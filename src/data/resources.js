@@ -1,5 +1,17 @@
 const resources = [
   {
+    "title": "Run Llama 13B with a 6GB graphics card",
+    "url": "https://gist.github.com/rain-1/8cc12b4b334052a21af8029aa9c4fafc",
+    "description": "This guide provides steps to run the Llama 13B text prediction model on a 6GB graphics card like the RTX 2060. It leverages a tool called llama.cpp, which allows for adjustable transformer layers to be run on the GPU, useful for low VRAM setups. Steps include cloning llama.cpp from GitHub, installing necessary software and packages, applying for research access to the llama model, setting up a micromamba environment, and finally running the model. It also shares performance timings for the models.",
+    "keywords": ["Llama 13B", "GPU", "6GB graphics card", "llama.cpp", "CUDA", "cuBLAS", "micromamba", "text prediction model"]
+  },  
+  {
+    "title": "Open-LLMs - A list of LLMs for Commercial Use",
+    "url": "https://eugeneyan.com/writing/open-llms/",
+    "description": "This post shares a compiled list of open Large Language Models (LLMs) with commercial licenses. The author created the list after realizing there wasn't one available, to help those looking to fine-tune an LLM with a commercial license, addressing legal and privacy concerns. The list has received significant community support, including eight PRs that added more open LLMs. The author invites further contributions to add datasets, evaluations, and more.", 
+    "keywords": ["LLMs", "Open-LLMs", "Commercial Use", "Fine-tuning", "Legal and Privacy Concerns", "Community Support"]
+  },
+  {
     "title": "Web browsing and Plugins are now rolling out in beta (May 12)",
     "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes#h_9894d7b0a4",
     "description": "OpenAI is rolling out new experimental features for ChatGPT Plus users: Web browsing and Plugins. The 'Web browsing' feature allows ChatGPT to browse the internet to answer recent topics and events. The 'Plugins' feature allows it to use enabled third-party plugins. Users can activate these features from a new beta panel in their settings. Other updates include options to turn off chat history, data exportability, and deprecation of the Legacy (GPT-3.5) model.",
