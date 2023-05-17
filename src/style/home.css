@@ -31,6 +31,11 @@
     height: 100%;
 }
 
+.newsletter-card {
+    margin-block: 1rem;
+    width: fit-content;
+}
+
 .newsletter-section p, 
 .newsletter-section form {
     text-align: center;
@@ -40,3 +45,4 @@
     display: inline-block;
     width: auto;
 }
+

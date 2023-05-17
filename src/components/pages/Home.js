@@ -61,7 +61,7 @@ const Home = () => {
         </Row>
         <Row className="home-row">
           <Col className="py-5 newsletter-section">
-            <Card className="h-100 shadow-lg bg-dark text-white rounded">
+            <Card className="newsletter-card h-100 shadow-lg bg-dark text-white rounded">
               <Card.Body>
                 <h2 className="text-center">Subscribe to our Newsletter</h2>
                 <p className="text-center">Get the latest AI news...</p>
