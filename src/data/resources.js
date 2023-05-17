@@ -1,5 +1,18 @@
 const resources = [
   {
+    "title": "∂B nets: learning discrete functions by gradient descent",
+    "url": "https://arxiv.org/pdf/2305.07315.pdf",
+    "description": "∂B nets are differentiable neural networks designed to learn discrete Boolean-valued functions using gradient descent. The system has two aspects: a differentiable 'soft-net' with real weights and a non-differentiable 'hard-net' with Boolean weights. The soft-net is trained by backpropagation, after which the weights are 'hardened' into Boolean weights for the hard-net, resulting in a learned discrete function. This 'hardening' process doesn't compromise accuracy. Initial experiments show that ∂B nets perform comparably to standard methods, but with the benefits of compactness due to 1-bit weights and interpretability owing to the logical nature of the learned functions.",
+    "keywords": ["∂B nets", "Neural Networks", "Discrete Functions", "Gradient Descent", "Boolean-valued Functions"]
+  },
+  {
+    "title": "RL4F: Generating Natural Language Feedback with Reinforcement Learning for Repairing Model Outputs",
+    "url": "https://arxiv.org/pdf/2305.08844.pdf",
+    "description": "This study introduces RL4F (Reinforcement Learning for Feedback), a multi-agent collaborative framework devised to train critique generators that help GPT-3, a fixed model over 200 times its size, to improve its output. RL4F aims to address the limitation of black-box or limited access models like ChatGPT that can't be fine-tuned, a process that's also not efficient for large, general-purpose language agents due to the multiple copies of the network it creates. The researchers applied RL4F to three datasets for action planning, summarization, and alphabetization, and reported improvements (around 5% on average) across all three tasks in multiple text similarity metrics compared to strong baselines.",
+    "keywords": ["Reinforcement Learning", "Natural Language Feedback",
+    "RL4F", "Model Outputs", "GPT-3"]
+  },
+  {
     "title": "Run Llama 13B with a 6GB graphics card",
     "url": "https://gist.github.com/rain-1/8cc12b4b334052a21af8029aa9c4fafc",
     "description": "This guide provides steps to run the Llama 13B text prediction model on a 6GB graphics card like the RTX 2060. It leverages a tool called llama.cpp, which allows for adjustable transformer layers to be run on the GPU, useful for low VRAM setups. Steps include cloning llama.cpp from GitHub, installing necessary software and packages, applying for research access to the llama model, setting up a micromamba environment, and finally running the model. It also shares performance timings for the models.",
