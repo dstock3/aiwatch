@@ -1,5 +1,11 @@
 const resources = [
   {
+    "title": "Numbers every LLM Developer should know", 
+    "url": "https://github.com/ray-project/llm-numbers",
+    "description": "This GitHub repository is a guide for Large Language Model (LLM) developers, inspired by Jeff Dean's 'Numbers every Engineer should know'. It provides crucial numbers for back-of-the-envelope calculations, including information about costs of using different models, ratios of tokens to words, training costs, and GPU memory requirements. It emphasizes understanding the costs of using and hosting models, as well as the potential savings from fine-tuning models and optimizing prompts. It also provides information on various hardware specifications and their implications for LLM deployment.",
+    "keywords": ["LLM", "Large Language Models", "Development", "Costs", "Training", "Fine-tuning", "Hosting", "GPU Memory"]
+  },
+  {
     "title": "∂B nets: learning discrete functions by gradient descent",
     "url": "https://arxiv.org/pdf/2305.07315.pdf",
     "description": "∂B nets are differentiable neural networks designed to learn discrete Boolean-valued functions using gradient descent. The system has two aspects: a differentiable 'soft-net' with real weights and a non-differentiable 'hard-net' with Boolean weights. The soft-net is trained by backpropagation, after which the weights are 'hardened' into Boolean weights for the hard-net, resulting in a learned discrete function. This 'hardening' process doesn't compromise accuracy. Initial experiments show that ∂B nets perform comparably to standard methods, but with the benefits of compactness due to 1-bit weights and interpretability owing to the logical nature of the learned functions.",
