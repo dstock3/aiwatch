@@ -73,7 +73,7 @@ const Home = () => {
                 <h1 className="text-center">Latest Video</h1>
                 <div className="home-video">
                   <ReactPlayer
-                    url='https://www.youtube.com/watch?v=your-video-id'
+                    url='https://www.youtube.com/embed/rrstrOrJxOc'
                     controls={true}
                     width='100%'
                     height='100%'
