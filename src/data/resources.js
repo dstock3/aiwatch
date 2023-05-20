@@ -1,5 +1,17 @@
 const resources = [
   {
+    "title": "BT to cut 55,000 jobs with up to a fifth replaced by AI",
+    "url": "https://www.bbc.com/news/business-65631168",
+    "description": "Telecoms giant BT plans to shed up to 55,000 jobs by the end of the decade, mainly in the UK, as part of cost-cutting measures. Approximately a fifth of the cuts will come from customer services as staff are replaced by AI technologies. BT's CEO, Philip Jansen, expressed confidence in 'generative AI' tools like ChatGPT, stating that AI will improve services while assuring customers that human interaction will still be available.",
+    "keywords": ["BT", "Job Cuts", "Artificial Intelligence", "Customer Services", "Cost-cutting"]
+  },
+  {
+    "title": "In Battle Over A.I., Meta Decides to Give Away Its Crown Jewels",
+    "url": "https://www.nytimes.com/2023/05/18/technology/ai-meta-open-source.html",
+    "description": "Meta, the tech giant behind Facebook, Instagram, and WhatsApp, has released its latest A.I. technology, called LLaMA, as open-source software. This move aims to promote faster progress and a future where A.I. is not solely controlled by a few powerful companies. However, rivals like Google and OpenAI express concerns about potential misuse and the spread of disinformation. Meta's CEO, Mark Zuckerberg, believes in the power of an open approach in the race to lead A.I.",
+    "keywords": ["Artificial Intelligence", "Meta", "Open Source", "A.I. Technology", "Chatbots"]
+  },
+  {
     "title": "All languages are NOT created (tokenized) equal",
     "url": "https://blog.yenniejun.com/p/all-languages-are-not-created-tokenized",
     "description": "The article highlights disparities in language models, emphasizing that some languages need up to ten times more tokens than English to express the same message. It provides a dashboard to explore different languages and tokenizers and discusses the implications of this disparity, such as impacts on performance, cost, and time. The author draws parallels with historical cases, like Chinese Morse code and telegraphy. The article calls attention to the issues of equity and inclusivity in AI, arguing that addressing these disparities in language tokenization is crucial for a more inclusive AI future.",
