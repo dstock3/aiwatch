@@ -1,5 +1,23 @@
 const resources = [
   {
+    "title": "All languages are NOT created (tokenized) equal",
+    "url": "https://blog.yenniejun.com/p/all-languages-are-not-created-tokenized",
+    "description": "The article highlights disparities in language models, emphasizing that some languages need up to ten times more tokens than English to express the same message. It provides a dashboard to explore different languages and tokenizers and discusses the implications of this disparity, such as impacts on performance, cost, and time. The author draws parallels with historical cases, like Chinese Morse code and telegraphy. The article calls attention to the issues of equity and inclusivity in AI, arguing that addressing these disparities in language tokenization is crucial for a more inclusive AI future.",
+    "keywords": ["Language Models", "Tokenization", "AI Equity", "AI Inclusivity"]
+  },
+  {
+    "title": "What In-Context Learning 'Learns' In-Context: Disentangling Task Recognition and Task Learning",
+    "url": "https://arxiv.org/pdf/2305.09731.pdf",
+    "description": "This paper delves into the workings of in-context learning (ICL) in large language models (LLMs) to discern how it leverages demonstrations. The authors distinguish between task recognition (TR) and task learning (TL). TR is the ability of LLMs to identify a task through demonstrations and apply pre-trained priors, while TL is their capacity to learn new input-label mappings not seen during pre-training. The study finds that LLMs can perform reasonably well using just TR, and that TL improves as the model scales up and more demonstrations are given.",
+    "keywords": ["In-Context Learning", "Large Language Models", "Task Recognition", "Task Learning"]
+  },
+  {
+    "title": "Improving Language Model Negotiation with Self-Play and In-Context Learning from AI Feedback",
+    "url": "https://arxiv.org/pdf/2305.10142.pdf",
+    "description": "The paper explores if large language models (LLMs) can autonomously improve each other in a negotiation game with minimal human intervention. Two LLMs negotiate as buyer and seller, and a third provides feedback. The study shows not all LLMs can improve through this process, and their learning capacity varies depending on their role.",
+    "keywords": ["Large Language Models", "AI feedback", "Self-play", "Negotiation"]
+  },
+  {
     "title": "Numbers every LLM Developer should know", 
     "url": "https://github.com/ray-project/llm-numbers",
     "description": "This GitHub repository is a guide for Large Language Model (LLM) developers, inspired by Jeff Dean's 'Numbers every Engineer should know'. It provides crucial numbers for back-of-the-envelope calculations, including information about costs of using different models, ratios of tokens to words, training costs, and GPU memory requirements. It emphasizes understanding the costs of using and hosting models, as well as the potential savings from fine-tuning models and optimizing prompts. It also provides information on various hardware specifications and their implications for LLM deployment.",
