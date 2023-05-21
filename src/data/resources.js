@@ -1,5 +1,11 @@
 const resources = [
   {
+    "title": "GPT detectors biased against non-native English writers",
+    "url": "https://arxiv.org/pdf/2304.02819.pdf",
+    "description": "Study finds widely-used GPT detectors consistently misclassify non-native English writing as AI-generated, while accurately identifying native writing. Simple prompting strategies can mitigate this bias and bypass the detectors, cautioning against their use in evaluative or educational settings. Ethical implications arise from potentially penalizing or excluding non-native English speakers from global discourse.",
+    "keywords": ["GPT Detectors", "Non-Native English Writers", "Bias", "AI-generated Content", "Ethical Implications"]
+  },
+  {
     "title": "BT to cut 55,000 jobs with up to a fifth replaced by AI",
     "url": "https://www.bbc.com/news/business-65631168",
     "description": "Telecoms giant BT plans to shed up to 55,000 jobs by the end of the decade, mainly in the UK, as part of cost-cutting measures. Approximately a fifth of the cuts will come from customer services as staff are replaced by AI technologies. BT's CEO, Philip Jansen, expressed confidence in 'generative AI' tools like ChatGPT, stating that AI will improve services while assuring customers that human interaction will still be available.",
