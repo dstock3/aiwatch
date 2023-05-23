@@ -1,8 +1,20 @@
 const resources = [
   {
+    "title": "LIMA: Less Is More for Alignment",
+    "url": "https://arxiv.org/pdf/2305.11206.pdf",
+    "description": "LIMA investigates the impact of pretraining and instruction tuning in large language models. With minimal fine-tuning using only 1,000 carefully selected prompts and responses, LIMA achieves remarkable performance, following specific response formats and generalizing well to unseen tasks. In a human study, LIMA's responses are equivalent or preferred to other models in a significant percentage of cases, highlighting the effectiveness of pretraining in capturing knowledge.",
+    "keywords": ["Large Language Models", "Pretraining", "Instruction Tuning", "Fine-tuning", "Performance"]
+  },
+  {
+    "title": "Evidence of Meaning in Language Models Trained on Programs",
+    "url": "https://arxiv.org/pdf/2305.11169.pdf",
+    "description": "The study provides evidence that language models trained on programs can learn meaning, as shown by the ability to extract abstractions of program states and generate correct and shorter programs. The study explores concepts of correctness and semantics and evaluates if semantics are represented in the model states. It develops an experimental framework for understanding the acquisition and representation of formal meaning in language models.",
+    "keywords": ["Language Models", "Programs", "Meaning", "Semantics", "Transformer Model"]
+  },
+  {
     "title": "GPT detectors biased against non-native English writers",
     "url": "https://arxiv.org/pdf/2304.02819.pdf",
-    "description": "Study finds widely-used GPT detectors consistently misclassify non-native English writing as AI-generated, while accurately identifying native writing. Simple prompting strategies can mitigate this bias and bypass the detectors, cautioning against their use in evaluative or educational settings. Ethical implications arise from potentially penalizing or excluding non-native English speakers from global discourse.",
+    "description": "This paper finds widely-used GPT detectors consistently misclassify non-native English writing as AI-generated, while accurately identifying native writing. Simple prompting strategies can mitigate this bias and bypass the detectors, cautioning against their use in evaluative or educational settings. Ethical implications arise from potentially penalizing or excluding non-native English speakers from global discourse.",
     "keywords": ["GPT Detectors", "Non-Native English Writers", "Bias", "AI-generated Content", "Ethical Implications"]
   },
   {
