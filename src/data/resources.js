@@ -1,5 +1,23 @@
 const resources = [
   {
+    "title": "Compromising LLM-Integrated Applications with Indirect Prompt Injection",
+    "url": "https://arxiv.org/pdf/2302.12173.pdf",
+    "description": "The study exposes vulnerabilities in LLM-integrated applications due to adversarial Prompt Injection attacks. Indirect Prompt Injection is introduced as a remote attack vector, enabling adversaries to exploit applications by strategically injecting prompts into retrievable data. The comprehensive taxonomy explores impacts, including data theft, information ecosystem contamination, and security risks. Practical attacks are demonstrated against real-world systems and synthetic applications, showcasing arbitrary code execution and application manipulation. The study emphasizes the need for effective mitigations and robust defenses to safeguard users and systems from these emerging threats.",
+    "keywords": ["Large Language Models", "LLM-integrated Applications", "Prompt Injection Attacks", "Indirect Prompt Injection", "Vulnerabilities", "Security Risks"]
+  },
+  {
+    "title": "In Defense of Pure 16-bit Floating-Point Neural Networks",
+    "url": "https://arxiv.org/pdf/2305.10947.pdf",
+    "description": "The study highlights the efficiency of pure 16-bit floating-point neural networks. A theoretical analysis explores the factors contributing to performance differences compared to 32-bit models. It demonstrates that 16-bit networks can closely approximate 32-bit results and even outperform them. The findings have implications for machine learning practitioners, suggesting the reconsideration of using pure 16-bit networks in various applications.",
+    "keywords": ["Neural Networks", "16-bit Floating-Point", "Efficiency", "Performance", "Lower-Precision Computing"]
+  },
+  {
+    "title": "Voyager: An Open-Ended Embodied Agent with Large Language Models",
+    "url": "https://voyager.minedojo.org/",
+    "description": "Voyager is an autonomous embodied lifelong learning agent in Minecraft, powered by large language models (LLMs). It explores the world, acquires diverse skills, and achieves exceptional proficiency in playing Minecraft. Voyager utilizes an automatic curriculum, an ever-growing skill library, and an iterative prompting mechanism for program improvement. It demonstrates strong lifelong learning capabilities and outperforms prior state-of-the-art methods in terms of item acquisition, travel distance, and unlocking tech milestones. Additionally, Voyager's learned skills enable it to solve novel tasks in new Minecraft worlds, showcasing superior generalization abilities.",
+    "keywords": ["Voyager", "LLM", "Embodied Agent", "Lifelong Learning", "Minecraft", "Skill Library", "Generalization"]
+  },
+  {
     "title": "LIMA: Less Is More for Alignment",
     "url": "https://arxiv.org/pdf/2305.11206.pdf",
     "description": "LIMA investigates the impact of pretraining and instruction tuning in large language models. With minimal fine-tuning using only 1,000 carefully selected prompts and responses, LIMA achieves remarkable performance, following specific response formats and generalizing well to unseen tasks. In a human study, LIMA's responses are equivalent or preferred to other models in a significant percentage of cases, highlighting the effectiveness of pretraining in capturing knowledge.",
