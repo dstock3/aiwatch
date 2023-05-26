@@ -1,5 +1,17 @@
 const resources = [
   {
+    "title": "LM vs LM: Detecting Factual Errors via Cross Examination",
+    "url": "https://arxiv.org/pdf/2305.13281.pdf",
+    "description": "The study addresses the issue of factually incorrect text generation by language models (LMs). Inspired by truth-seeking mechanisms in law, a factuality evaluation framework based on cross-examination is proposed. By leveraging multi-turn interactions between the LM that generated the claim and an examining LM, inconsistencies are detected to identify incorrect claims. The method is empirically evaluated on factual claims from recent LMs, outperforming existing methods and baselines. The results highlight the potential of using interacting LMs to capture and detect factual errors in LM-generated text.",
+    "keywords": ["Language Models", "Factual Errors", "Factuality Evaluation", "Cross Examination", "Interacting LMs"]
+  },
+  {
+    "title": "It's not just statistics: GPT-4 does reason.",
+    "url": "https://jbconsulting.substack.com/p/its-not-just-statistics-gpt-4-does",
+    "description": "The article challenges the notion that GPT-4 is limited to statistics and lacks real understanding. The author presents a mathematical argument in parts 1 and 2, demonstrating that GPT-4's statistics imply a deeper level of comprehension. In part 3, an experiment is conducted to showcase how a GPT-like transformer model can learn the underlying data generation process, surpassing traditional methods. The article highlights the capability of GPT-4 to reason and comprehend beyond surface-level statistics.",
+    "keywords": ["GPT-4", "Statistics", "Reasoning", "Understanding", "Transformer Model", "Data Generation"]
+  },
+  {
     "title": "Compromising LLM-Integrated Applications with Indirect Prompt Injection",
     "url": "https://arxiv.org/pdf/2302.12173.pdf",
     "description": "The study exposes vulnerabilities in LLM-integrated applications due to adversarial Prompt Injection attacks. Indirect Prompt Injection is introduced as a remote attack vector, enabling adversaries to exploit applications by strategically injecting prompts into retrievable data. The comprehensive taxonomy explores impacts, including data theft, information ecosystem contamination, and security risks. Practical attacks are demonstrated against real-world systems and synthetic applications, showcasing arbitrary code execution and application manipulation. The study emphasizes the need for effective mitigations and robust defenses to safeguard users and systems from these emerging threats.",
